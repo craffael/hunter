@@ -40,6 +40,7 @@ matrix:
         TOOLCHAIN=clang-cxx17
         PROJECT_DIR=examples/occt
         VERBOSE=0
+        HUNTER_CONFIGURATION_TYPES=Debug
 
     - os: linux
       env: >

@@ -22,6 +22,7 @@ addons:
       - python3-pip
       - python3-setuptools
       - g++-7
+      - mesa-common-dev
 
 dist:
   - xenial

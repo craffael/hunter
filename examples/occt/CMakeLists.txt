@@ -11,8 +11,8 @@ project(download-occt)
 
 # DOCUMENTATION_START {
 hunter_add_package(occt)
-find_package(occt CONFIG REQUIRED)
+find_package(OpenCASCADE CONFIG REQUIRED)
 
 add_executable(boo boo.cpp)
-target_link_libraries(boo occt::TKernel occt::TKGeomBase occt::TKMath occt::TKG3d)
+target_link_libraries(boo occt::TKGeomBase occt::TKG3d occt::TKMath occt::TKernel pthread)
 # DOCUMENTATION_END }

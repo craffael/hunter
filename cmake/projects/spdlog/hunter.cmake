@@ -125,7 +125,7 @@ hunter_add_version(
     VERSION
     "1.8.0-p0"
     URL
-    "https://github.com/cpp-pm/spdlog/archive/v1.8.0.tar.gz"
+    "https://github.com/cpp-pm/spdlog/archive/v1.8.0-p0.tar.gz"
     SHA1
     e1cdd1071fcd3dfc8ad09cb2edc14a714d221863
 )

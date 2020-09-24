@@ -123,11 +123,11 @@ hunter_add_version(
     PACKAGE_NAME
     spdlog
     VERSION
-    "1.8.0-p0"
+    "1.8.0-p1"
     URL
-    "https://github.com/cpp-pm/spdlog/archive/v1.8.0-p0.tar.gz"
+    "https://github.com/cpp-pm/spdlog/archive/v1.8.0-p1.tar.gz"
     SHA1
-    e1cdd1071fcd3dfc8ad09cb2edc14a714d221863
+    3bfb2352482e6190c377f121b1f760dad767b58d
 )
 
 hunter_cmake_args(

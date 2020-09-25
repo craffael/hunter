@@ -30,7 +30,7 @@ hood and existing CMake packages can be quite easily integrated into system,
 but non-CMake packages are also supported too using custom templates
 (build schemes) with ``ExternalProject_Add`` command(s).
 
-The Hunter client is a collection of CMake-only modules
+The Hunter client is a collection of CMake-only modulessdf
 (i.e. it's **not a binary** like ``apt-get`` or script like ``brew``)
 so it supports out-of-the-box all platforms/generators/IDEs which CMake can
 handle, like Visual Studio, Xcode, :doc:`Android Studio </faq/android-studio>`,

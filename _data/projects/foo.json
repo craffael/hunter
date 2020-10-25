@@ -1,0 +1,107 @@
+[
+    {
+        "status": "completed", 
+        "check_run_url": "https://api.github.com/repos/craffael/hunter/check-runs/1304667205", 
+        "name": "foo clang-cxx17 ubuntu-16.04", 
+        "run_id": 327221511, 
+        "url": "https://api.github.com/repos/craffael/hunter/actions/jobs/1304667205", 
+        "html_url": "https://github.com/craffael/hunter/runs/1304667205", 
+        "completed_at": "2020-10-25T11:05:01Z", 
+        "run_url": "https://api.github.com/repos/craffael/hunter/actions/runs/327221511", 
+        "node_id": "MDg6Q2hlY2tSdW4xMzA0NjY3MjA1", 
+        "steps": [
+            {
+                "status": "completed", 
+                "name": "Set up job", 
+                "number": 1, 
+                "completed_at": "2020-10-25T11:04:48.000Z", 
+                "started_at": "2020-10-25T11:04:46.000Z", 
+                "conclusion": "success"
+            }, 
+            {
+                "status": "completed", 
+                "name": "Git checkout with submodules", 
+                "number": 2, 
+                "completed_at": "2020-10-25T11:04:53.000Z", 
+                "started_at": "2020-10-25T11:04:48.000Z", 
+                "conclusion": "success"
+            }, 
+            {
+                "status": "completed", 
+                "name": "Set up Python", 
+                "number": 3, 
+                "completed_at": "2020-10-25T11:04:53.000Z", 
+                "started_at": "2020-10-25T11:04:53.000Z", 
+                "conclusion": "success"
+            }, 
+            {
+                "status": "completed", 
+                "name": "Set up Python environment variable (Unix)", 
+                "number": 4, 
+                "completed_at": "2020-10-25T11:04:53.000Z", 
+                "started_at": "2020-10-25T11:04:53.000Z", 
+                "conclusion": "success"
+            }, 
+            {
+                "status": "completed", 
+                "name": "Set up Python environment variable (Windows)", 
+                "number": 5, 
+                "completed_at": "2020-10-25T11:04:53.000Z", 
+                "started_at": "2020-10-25T11:04:53.000Z", 
+                "conclusion": "skipped"
+            }, 
+            {
+                "status": "completed", 
+                "name": "Extract branch name", 
+                "number": 6, 
+                "completed_at": "2020-10-25T11:04:53.000Z", 
+                "started_at": "2020-10-25T11:04:53.000Z", 
+                "conclusion": "success"
+            }, 
+            {
+                "status": "completed", 
+                "name": "Upgrade pip", 
+                "number": 7, 
+                "completed_at": "2020-10-25T11:04:55.000Z", 
+                "started_at": "2020-10-25T11:04:53.000Z", 
+                "conclusion": "success"
+            }, 
+            {
+                "status": "completed", 
+                "name": "Build on Unix", 
+                "number": 8, 
+                "completed_at": "2020-10-25T11:05:01.000Z", 
+                "started_at": "2020-10-25T11:04:55.000Z", 
+                "conclusion": "failure"
+            }, 
+            {
+                "status": "completed", 
+                "name": "Build on Windows", 
+                "number": 9, 
+                "completed_at": "2020-10-25T11:05:01.000Z", 
+                "started_at": "2020-10-25T11:05:01.000Z", 
+                "conclusion": "skipped"
+            }, 
+            {
+                "status": "completed", 
+                "name": "Post Git checkout with submodules", 
+                "number": 18, 
+                "completed_at": "2020-10-25T11:05:01.000Z", 
+                "started_at": "2020-10-25T11:05:01.000Z", 
+                "conclusion": "success"
+            }, 
+            {
+                "status": "completed", 
+                "name": "Complete job", 
+                "number": 19, 
+                "completed_at": "2020-10-25T11:05:01.000Z", 
+                "started_at": "2020-10-25T11:05:01.000Z", 
+                "conclusion": "success"
+            }
+        ], 
+        "head_sha": "69678c824faf5f99be717008a1271b6210494247", 
+        "started_at": "2020-10-25T11:04:46Z", 
+        "id": 1304667205, 
+        "conclusion": "failure"
+    }
+]

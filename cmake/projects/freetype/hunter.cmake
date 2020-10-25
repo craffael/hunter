@@ -74,6 +74,7 @@ hunter_add_version(
     7f172287e594c916150f1b2a2882a188f945e969
 )
 
+
 hunter_cmake_args(
     freetype
     CMAKE_ARGS

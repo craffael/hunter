@@ -2,4 +2,4 @@
 sudo apt-get install mesa-common-dev
 
 # Run normal build script: 
-sudo ./.github/workflows/ci/build.sh
+source ./.github/workflows/ci/build.sh

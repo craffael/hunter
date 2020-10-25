@@ -28,6 +28,7 @@ hunter_cmake_args(
     BUILD_SHARED_LIBS=On
 )
 
+
 hunter_pick_scheme(DEFAULT url_sha1_cmake)
 hunter_cacheable(occt)
 hunter_download(PACKAGE_NAME occt)

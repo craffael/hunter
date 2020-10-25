@@ -6,12 +6,12 @@ if [ "$(uname)" == "Darwin" ]; then
 elif [ "$(expr substr $(uname -s) 1 5)" == "Linux" ]; then
     # GNU/Linux
     sudo apt-get update
-    sudo apt-get install mesa-common-dev libgl1-mesa-dev
+    sudo apt-get install mesa-common-dev libgl1-mesa-dev libxmu-dev libxi-dev
 elif [ "$(expr substr $(uname -s) 1 10)" == "MINGW32_NT" ]; then
-    # Do something under 32 bits Windows NT platform
+    # Windows x32
     :
 elif [ "$(expr substr $(uname -s) 1 10)" == "MINGW64_NT" ]; then
-    # Do something under 64 bits Windows NT platform
+    # Windows x64
     :
 fi
 

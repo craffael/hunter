@@ -17,7 +17,7 @@ hunter_add_version(
     URL
     "https://github.com/craffael/OCCT/archive/hunter-7.4.0.tar.gz"
     SHA1
-    447b77485786863b51bf9caf745e8c709cc5f608
+    68081002e55b77db03368402ca96efba9b62ab6b
 )
 
 hunter_cmake_args(

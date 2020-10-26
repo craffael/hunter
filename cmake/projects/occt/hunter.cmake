@@ -25,7 +25,6 @@ hunter_cmake_args(
   CMAKE_ARGS
     BUILD_MODULE_Draw=Off
     BUILD_DOC_Overview=Off
-    BUILD_SHARED_LIBS=On
 )
 
 

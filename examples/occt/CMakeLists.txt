@@ -15,7 +15,7 @@ find_package(OpenCASCADE CONFIG REQUIRED)
 
 add_executable(boo boo.cpp)
 target_link_libraries(boo occt::TKFillet  occt::TKOffset occt::TKBool  occt::TKBO occt::TKShHealing  occt::TKPrim occt::TKTopAlgo occt::TKBRep occt::TKGeomAlgo occt::TKGeomBase occt::TKG3d occt::TKG2d occt::TKMath occt::TKernel)
-if(NOT WIN32)
+if(UNIX OR APPLE)
   target_link_libraries(boo pthread)
 endif()
 # DOCUMENTATION_END }

@@ -42,7 +42,8 @@ if "%TOOLCHAIN:~0,3%"=="vs-" set HUNTER_BINARY_DIR=C:\__BIN
 if "%TOOLCHAIN:~0,5%"=="vs-14" set PATH=C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\MSBuild\15.0\Bin;%PATH%
 
 if "%BRANCH_NAME%" == "master" (
-    python jenkins.py --upload
+    python jenkins.py --upload --all-release
 ) else (
-    python jenkins.py
+:: only test release builds because debug builds produce .pdb files which fill up disk space
+    python jenkins.py --all-release
 )

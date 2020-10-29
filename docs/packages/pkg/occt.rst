@@ -21,18 +21,11 @@ OpenCascade Community Technology
   :start-after: # DOCUMENTATION_START {
   :end-before: # DOCUMENTATION_END }
   
-Notes
------
+.. note::
 
-- OpenCascade consists of a number of modules. This Hunterized version supports all modules except
-  the `Draw Test Harness <https://www.opencascade.com/doc/occt-7.4.0/overview/html/technical_overview.html#OCCT_TOVW_SECTION_8>`__.
-- To build shared versions of OpenCascade, please add the following to your `custom config <https://github.com/cpp-pm/gate#usage-custom-config>`__
+  * OpenCascade consists of a number of modules. This Hunterized version supports all modules except
+    the `Draw Test Harness <https://www.opencascade.com/doc/occt-7.4.0/overview/html/technical_overview.html#OCCT_TOVW_SECTION_8>`__.
+  * To build shared versions of occt (recommended), please use :ref:`HUNTER_BUILD_SHARED_LIBS=ON <hunter build shared libs>` 
+    or build with :ref:`toolchain with PIC <simple toolchains>`.
+  * On Ubuntu, make sure that you have installed the following system packages: :code:`mesa-common-dev`, :code:`libgl1-mesa-dev`, :code:`libxmu-dev`, :code:`libxi-dev`
 
-  .. code-block:: cmake
-
-    hunter_config(
-        occt
-        VERSION ${HUNTER_occt_VERSION}
-        CMAKE_ARGS
-          BUILD_SHARED_LIBS=On
-    )

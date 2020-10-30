@@ -13,11 +13,11 @@ hunter_add_version(
     PACKAGE_NAME
     occt
     VERSION
-    7.4.0
+    7.4.0-p1
     URL
-    "https://github.com/craffael/OCCT/archive/hunter-7.4.0.tar.gz"
+    "https://github.com/cpp-pm/OCCT/archive/hunter-7.4.0-p1.tar.gz"
     SHA1
-    68ec85a4742be5913c73abdccef3856ef8cd0709
+    ec07dd32aa9be14020a40ef11372ebcc4bf0095c
 )
 
 hunter_cmake_args(

@@ -27,6 +27,7 @@ hunter_cmake_args(
     BUILD_DOC_Overview=Off
 )
 
+
 hunter_pick_scheme(DEFAULT url_sha1_cmake)
 hunter_cacheable(occt)
 hunter_download(PACKAGE_NAME occt)

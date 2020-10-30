@@ -14,7 +14,7 @@ OpenCascade Community Technology
 -  `Official <https://dev.opencascade.org/>`__
 -  `Hunterized <https://github.com/cpp-pm/occt>`__
 -  `Example <https://github.com/cpp-pm/hunter/blob/master/examples/occt/CMakeLists.txt>`__
--  Added by `craffael <https://github.com/craffael>`__ (`pr-N <https://github.com/cpp-pm/hunter/pull/N>`__)
+-  Added by `craffael <https://github.com/craffael>`__ (`pr-295 <https://github.com/cpp-pm/hunter/pull/295>`__)
 
 .. literalinclude:: /../examples/occt/CMakeLists.txt
   :language: cmake

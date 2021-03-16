@@ -14,13 +14,11 @@ hunter_add_version(
     PACKAGE_NAME
     taskflow
     VERSION
-    3.0.0
+    "3.0.0-9e50cf2"
     URL
-    #"https://github.com/taskflow/taskflow/archive/v3.0.0.tar.gz"
-    "https://github.com/craffael/taskflow/archive/a08358081057d2ae7ed500a783c064bba64f6664.tar.gz"
+    "https://github.com/taskflow/taskflow/archive/9e50cf2a7b33b90713c20585498369caf299bf08.tar.gz"
     SHA1
-    #2f14c813038c42c512756ac2287508a28c042304
-    e81d1b398734f29cb1f07e59fd177d1a1e6148b8
+    52486301a2b0a01dfe1513a09d136bc74675a287
 )
 
 hunter_cmake_args(

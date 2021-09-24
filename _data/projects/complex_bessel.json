@@ -1,0 +1,1845 @@
+[
+    {
+        "id": 3704025997,
+        "run_id": 1271130743,
+        "run_url": "https://api.github.com/repos/craffael/hunter/actions/runs/1271130743",
+        "node_id": "CR_kwDOCVzNwc7cxvON",
+        "head_sha": "abab4b5ef58970299242e4324b18b7094fe386cd",
+        "url": "https://api.github.com/repos/craffael/hunter/actions/jobs/3704025997",
+        "html_url": "https://github.com/craffael/hunter/runs/3704025997",
+        "status": "completed",
+        "conclusion": "failure",
+        "started_at": "2021-09-24T19:39:18Z",
+        "completed_at": "2021-09-24T19:39:44Z",
+        "name": "complex_bessel analyze-cxx17 ubuntu-20.04",
+        "steps": [
+            {
+                "name": "Set up job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 1,
+                "started_at": "2021-09-24T19:39:18.000Z",
+                "completed_at": "2021-09-24T19:39:21.000Z"
+            },
+            {
+                "name": "Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 2,
+                "started_at": "2021-09-24T19:39:21.000Z",
+                "completed_at": "2021-09-24T19:39:24.000Z"
+            },
+            {
+                "name": "Set up Python",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 3,
+                "started_at": "2021-09-24T19:39:24.000Z",
+                "completed_at": "2021-09-24T19:39:24.000Z"
+            },
+            {
+                "name": "Set up Python environment variable (Unix)",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 4,
+                "started_at": "2021-09-24T19:39:24.000Z",
+                "completed_at": "2021-09-24T19:39:24.000Z"
+            },
+            {
+                "name": "Set up Python environment variable (Windows)",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 5,
+                "started_at": "2021-09-24T19:39:24.000Z",
+                "completed_at": "2021-09-24T19:39:24.000Z"
+            },
+            {
+                "name": "Extract branch name",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 6,
+                "started_at": "2021-09-24T19:39:24.000Z",
+                "completed_at": "2021-09-24T19:39:24.000Z"
+            },
+            {
+                "name": "Build on Unix",
+                "status": "completed",
+                "conclusion": "failure",
+                "number": 7,
+                "started_at": "2021-09-24T19:39:24.000Z",
+                "completed_at": "2021-09-24T19:39:44.000Z"
+            },
+            {
+                "name": "Build on Windows",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 8,
+                "started_at": "2021-09-24T19:39:44.000Z",
+                "completed_at": "2021-09-24T19:39:44.000Z"
+            },
+            {
+                "name": "Post Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 16,
+                "started_at": "2021-09-24T19:39:44.000Z",
+                "completed_at": "2021-09-24T19:39:44.000Z"
+            },
+            {
+                "name": "Complete job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 17,
+                "started_at": "2021-09-24T19:39:44.000Z",
+                "completed_at": "2021-09-24T19:39:44.000Z"
+            }
+        ],
+        "check_run_url": "https://api.github.com/repos/craffael/hunter/check-runs/3704025997"
+    },
+    {
+        "id": 3704025959,
+        "run_id": 1271130743,
+        "run_url": "https://api.github.com/repos/craffael/hunter/actions/runs/1271130743",
+        "node_id": "CR_kwDOCVzNwc7cxvNn",
+        "head_sha": "abab4b5ef58970299242e4324b18b7094fe386cd",
+        "url": "https://api.github.com/repos/craffael/hunter/actions/jobs/3704025959",
+        "html_url": "https://github.com/craffael/hunter/runs/3704025959",
+        "status": "completed",
+        "conclusion": "failure",
+        "started_at": "2021-09-24T19:39:17Z",
+        "completed_at": "2021-09-24T19:40:20Z",
+        "name": "complex_bessel android-ndk-r17-api-24-arm64-v8a-clang-libcxx14 ubuntu-20.04",
+        "steps": [
+            {
+                "name": "Set up job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 1,
+                "started_at": "2021-09-24T19:39:17.000Z",
+                "completed_at": "2021-09-24T19:39:19.000Z"
+            },
+            {
+                "name": "Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 2,
+                "started_at": "2021-09-24T19:39:19.000Z",
+                "completed_at": "2021-09-24T19:39:23.000Z"
+            },
+            {
+                "name": "Set up Python",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 3,
+                "started_at": "2021-09-24T19:39:23.000Z",
+                "completed_at": "2021-09-24T19:39:23.000Z"
+            },
+            {
+                "name": "Set up Python environment variable (Unix)",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 4,
+                "started_at": "2021-09-24T19:39:23.000Z",
+                "completed_at": "2021-09-24T19:39:23.000Z"
+            },
+            {
+                "name": "Set up Python environment variable (Windows)",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 5,
+                "started_at": "2021-09-24T19:39:23.000Z",
+                "completed_at": "2021-09-24T19:39:23.000Z"
+            },
+            {
+                "name": "Extract branch name",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 6,
+                "started_at": "2021-09-24T19:39:23.000Z",
+                "completed_at": "2021-09-24T19:39:23.000Z"
+            },
+            {
+                "name": "Build on Unix",
+                "status": "completed",
+                "conclusion": "failure",
+                "number": 7,
+                "started_at": "2021-09-24T19:39:23.000Z",
+                "completed_at": "2021-09-24T19:40:19.000Z"
+            },
+            {
+                "name": "Build on Windows",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 8,
+                "started_at": "2021-09-24T19:40:19.000Z",
+                "completed_at": "2021-09-24T19:40:19.000Z"
+            },
+            {
+                "name": "Post Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 16,
+                "started_at": "2021-09-24T19:40:19.000Z",
+                "completed_at": "2021-09-24T19:40:20.000Z"
+            },
+            {
+                "name": "Complete job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 17,
+                "started_at": "2021-09-24T19:40:20.000Z",
+                "completed_at": "2021-09-24T19:40:20.000Z"
+            }
+        ],
+        "check_run_url": "https://api.github.com/repos/craffael/hunter/check-runs/3704025959"
+    },
+    {
+        "id": 3704025832,
+        "run_id": 1271130743,
+        "run_url": "https://api.github.com/repos/craffael/hunter/actions/runs/1271130743",
+        "node_id": "CR_kwDOCVzNwc7cxvLo",
+        "head_sha": "abab4b5ef58970299242e4324b18b7094fe386cd",
+        "url": "https://api.github.com/repos/craffael/hunter/actions/jobs/3704025832",
+        "html_url": "https://github.com/craffael/hunter/runs/3704025832",
+        "status": "completed",
+        "conclusion": "failure",
+        "started_at": "2021-09-24T19:39:17Z",
+        "completed_at": "2021-09-24T19:39:54Z",
+        "name": "complex_bessel clang-cxx17 ubuntu-20.04",
+        "steps": [
+            {
+                "name": "Set up job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 1,
+                "started_at": "2021-09-24T19:39:17.000Z",
+                "completed_at": "2021-09-24T19:39:19.000Z"
+            },
+            {
+                "name": "Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 2,
+                "started_at": "2021-09-24T19:39:19.000Z",
+                "completed_at": "2021-09-24T19:39:23.000Z"
+            },
+            {
+                "name": "Set up Python",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 3,
+                "started_at": "2021-09-24T19:39:23.000Z",
+                "completed_at": "2021-09-24T19:39:24.000Z"
+            },
+            {
+                "name": "Set up Python environment variable (Unix)",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 4,
+                "started_at": "2021-09-24T19:39:24.000Z",
+                "completed_at": "2021-09-24T19:39:24.000Z"
+            },
+            {
+                "name": "Set up Python environment variable (Windows)",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 5,
+                "started_at": "2021-09-24T19:39:24.000Z",
+                "completed_at": "2021-09-24T19:39:24.000Z"
+            },
+            {
+                "name": "Extract branch name",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 6,
+                "started_at": "2021-09-24T19:39:24.000Z",
+                "completed_at": "2021-09-24T19:39:24.000Z"
+            },
+            {
+                "name": "Build on Unix",
+                "status": "completed",
+                "conclusion": "failure",
+                "number": 7,
+                "started_at": "2021-09-24T19:39:24.000Z",
+                "completed_at": "2021-09-24T19:39:54.000Z"
+            },
+            {
+                "name": "Build on Windows",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 8,
+                "started_at": "2021-09-24T19:39:54.000Z",
+                "completed_at": "2021-09-24T19:39:54.000Z"
+            },
+            {
+                "name": "Post Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 16,
+                "started_at": "2021-09-24T19:39:54.000Z",
+                "completed_at": "2021-09-24T19:39:54.000Z"
+            },
+            {
+                "name": "Complete job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 17,
+                "started_at": "2021-09-24T19:39:54.000Z",
+                "completed_at": "2021-09-24T19:39:54.000Z"
+            }
+        ],
+        "check_run_url": "https://api.github.com/repos/craffael/hunter/check-runs/3704025832"
+    },
+    {
+        "id": 3704025860,
+        "run_id": 1271130743,
+        "run_url": "https://api.github.com/repos/craffael/hunter/actions/runs/1271130743",
+        "node_id": "CR_kwDOCVzNwc7cxvME",
+        "head_sha": "abab4b5ef58970299242e4324b18b7094fe386cd",
+        "url": "https://api.github.com/repos/craffael/hunter/actions/jobs/3704025860",
+        "html_url": "https://github.com/craffael/hunter/runs/3704025860",
+        "status": "completed",
+        "conclusion": "failure",
+        "started_at": "2021-09-24T19:39:18Z",
+        "completed_at": "2021-09-24T19:40:12Z",
+        "name": "complex_bessel gcc-7-cxx17 ubuntu-20.04",
+        "steps": [
+            {
+                "name": "Set up job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 1,
+                "started_at": "2021-09-24T19:39:18.000Z",
+                "completed_at": "2021-09-24T19:39:21.000Z"
+            },
+            {
+                "name": "Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 2,
+                "started_at": "2021-09-24T19:39:21.000Z",
+                "completed_at": "2021-09-24T19:39:26.000Z"
+            },
+            {
+                "name": "Set up Python",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 3,
+                "started_at": "2021-09-24T19:39:26.000Z",
+                "completed_at": "2021-09-24T19:39:26.000Z"
+            },
+            {
+                "name": "Set up Python environment variable (Unix)",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 4,
+                "started_at": "2021-09-24T19:39:26.000Z",
+                "completed_at": "2021-09-24T19:39:26.000Z"
+            },
+            {
+                "name": "Set up Python environment variable (Windows)",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 5,
+                "started_at": "2021-09-24T19:39:26.000Z",
+                "completed_at": "2021-09-24T19:39:26.000Z"
+            },
+            {
+                "name": "Extract branch name",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 6,
+                "started_at": "2021-09-24T19:39:26.000Z",
+                "completed_at": "2021-09-24T19:39:26.000Z"
+            },
+            {
+                "name": "Build on Unix",
+                "status": "completed",
+                "conclusion": "failure",
+                "number": 7,
+                "started_at": "2021-09-24T19:39:26.000Z",
+                "completed_at": "2021-09-24T19:40:12.000Z"
+            },
+            {
+                "name": "Build on Windows",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 8,
+                "started_at": "2021-09-24T19:40:12.000Z",
+                "completed_at": "2021-09-24T19:40:12.000Z"
+            },
+            {
+                "name": "Post Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 16,
+                "started_at": "2021-09-24T19:40:12.000Z",
+                "completed_at": "2021-09-24T19:40:12.000Z"
+            },
+            {
+                "name": "Complete job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 17,
+                "started_at": "2021-09-24T19:40:12.000Z",
+                "completed_at": "2021-09-24T19:40:12.000Z"
+            }
+        ],
+        "check_run_url": "https://api.github.com/repos/craffael/hunter/check-runs/3704025860"
+    },
+    {
+        "id": 3704025895,
+        "run_id": 1271130743,
+        "run_url": "https://api.github.com/repos/craffael/hunter/actions/runs/1271130743",
+        "node_id": "CR_kwDOCVzNwc7cxvMn",
+        "head_sha": "abab4b5ef58970299242e4324b18b7094fe386cd",
+        "url": "https://api.github.com/repos/craffael/hunter/actions/jobs/3704025895",
+        "html_url": "https://github.com/craffael/hunter/runs/3704025895",
+        "status": "completed",
+        "conclusion": "failure",
+        "started_at": "2021-09-24T19:39:19Z",
+        "completed_at": "2021-09-24T19:40:44Z",
+        "name": "complex_bessel gcc-8-cxx17-fpic ubuntu-20.04",
+        "steps": [
+            {
+                "name": "Set up job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 1,
+                "started_at": "2021-09-24T19:39:19.000Z",
+                "completed_at": "2021-09-24T19:39:22.000Z"
+            },
+            {
+                "name": "Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 2,
+                "started_at": "2021-09-24T19:39:22.000Z",
+                "completed_at": "2021-09-24T19:39:29.000Z"
+            },
+            {
+                "name": "Set up Python",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 3,
+                "started_at": "2021-09-24T19:39:29.000Z",
+                "completed_at": "2021-09-24T19:39:29.000Z"
+            },
+            {
+                "name": "Set up Python environment variable (Unix)",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 4,
+                "started_at": "2021-09-24T19:39:29.000Z",
+                "completed_at": "2021-09-24T19:39:29.000Z"
+            },
+            {
+                "name": "Set up Python environment variable (Windows)",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 5,
+                "started_at": "2021-09-24T19:39:29.000Z",
+                "completed_at": "2021-09-24T19:39:29.000Z"
+            },
+            {
+                "name": "Extract branch name",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 6,
+                "started_at": "2021-09-24T19:39:29.000Z",
+                "completed_at": "2021-09-24T19:39:29.000Z"
+            },
+            {
+                "name": "Build on Unix",
+                "status": "completed",
+                "conclusion": "failure",
+                "number": 7,
+                "started_at": "2021-09-24T19:39:29.000Z",
+                "completed_at": "2021-09-24T19:40:44.000Z"
+            },
+            {
+                "name": "Build on Windows",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 8,
+                "started_at": "2021-09-24T19:40:44.000Z",
+                "completed_at": "2021-09-24T19:40:44.000Z"
+            },
+            {
+                "name": "Post Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 16,
+                "started_at": "2021-09-24T19:40:44.000Z",
+                "completed_at": "2021-09-24T19:40:44.000Z"
+            },
+            {
+                "name": "Complete job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 17,
+                "started_at": "2021-09-24T19:40:44.000Z",
+                "completed_at": "2021-09-24T19:40:44.000Z"
+            }
+        ],
+        "check_run_url": "https://api.github.com/repos/craffael/hunter/check-runs/3704025895"
+    },
+    {
+        "id": 3704025926,
+        "run_id": 1271130743,
+        "run_url": "https://api.github.com/repos/craffael/hunter/actions/runs/1271130743",
+        "node_id": "CR_kwDOCVzNwc7cxvNG",
+        "head_sha": "abab4b5ef58970299242e4324b18b7094fe386cd",
+        "url": "https://api.github.com/repos/craffael/hunter/actions/jobs/3704025926",
+        "html_url": "https://github.com/craffael/hunter/runs/3704025926",
+        "status": "completed",
+        "conclusion": "failure",
+        "started_at": "2021-09-24T19:39:17Z",
+        "completed_at": "2021-09-24T19:39:58Z",
+        "name": "complex_bessel gcc-9-cxx17-fpic ubuntu-20.04",
+        "steps": [
+            {
+                "name": "Set up job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 1,
+                "started_at": "2021-09-24T19:39:17.000Z",
+                "completed_at": "2021-09-24T19:39:19.000Z"
+            },
+            {
+                "name": "Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 2,
+                "started_at": "2021-09-24T19:39:19.000Z",
+                "completed_at": "2021-09-24T19:39:23.000Z"
+            },
+            {
+                "name": "Set up Python",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 3,
+                "started_at": "2021-09-24T19:39:23.000Z",
+                "completed_at": "2021-09-24T19:39:23.000Z"
+            },
+            {
+                "name": "Set up Python environment variable (Unix)",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 4,
+                "started_at": "2021-09-24T19:39:23.000Z",
+                "completed_at": "2021-09-24T19:39:23.000Z"
+            },
+            {
+                "name": "Set up Python environment variable (Windows)",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 5,
+                "started_at": "2021-09-24T19:39:23.000Z",
+                "completed_at": "2021-09-24T19:39:23.000Z"
+            },
+            {
+                "name": "Extract branch name",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 6,
+                "started_at": "2021-09-24T19:39:23.000Z",
+                "completed_at": "2021-09-24T19:39:23.000Z"
+            },
+            {
+                "name": "Build on Unix",
+                "status": "completed",
+                "conclusion": "failure",
+                "number": 7,
+                "started_at": "2021-09-24T19:39:23.000Z",
+                "completed_at": "2021-09-24T19:39:57.000Z"
+            },
+            {
+                "name": "Build on Windows",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 8,
+                "started_at": "2021-09-24T19:39:57.000Z",
+                "completed_at": "2021-09-24T19:39:57.000Z"
+            },
+            {
+                "name": "Post Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 16,
+                "started_at": "2021-09-24T19:39:57.000Z",
+                "completed_at": "2021-09-24T19:39:58.000Z"
+            },
+            {
+                "name": "Complete job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 17,
+                "started_at": "2021-09-24T19:39:58.000Z",
+                "completed_at": "2021-09-24T19:39:58.000Z"
+            }
+        ],
+        "check_run_url": "https://api.github.com/repos/craffael/hunter/check-runs/3704025926"
+    },
+    {
+        "id": 3704026246,
+        "run_id": 1271130743,
+        "run_url": "https://api.github.com/repos/craffael/hunter/actions/runs/1271130743",
+        "node_id": "CR_kwDOCVzNwc7cxvSG",
+        "head_sha": "abab4b5ef58970299242e4324b18b7094fe386cd",
+        "url": "https://api.github.com/repos/craffael/hunter/actions/jobs/3704026246",
+        "html_url": "https://github.com/craffael/hunter/runs/3704026246",
+        "status": "completed",
+        "conclusion": "failure",
+        "started_at": "2021-09-24T19:39:20Z",
+        "completed_at": "2021-09-24T19:40:57Z",
+        "name": "complex_bessel ios-nocodesign-14-4-dep-10-0-arm64 macos-10.15",
+        "steps": [
+            {
+                "name": "Set up job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 1,
+                "started_at": "2021-09-24T19:39:20.000Z",
+                "completed_at": "2021-09-24T19:39:23.000Z"
+            },
+            {
+                "name": "Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 2,
+                "started_at": "2021-09-24T19:39:23.000Z",
+                "completed_at": "2021-09-24T19:39:32.000Z"
+            },
+            {
+                "name": "Set up Python",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 3,
+                "started_at": "2021-09-24T19:39:32.000Z",
+                "completed_at": "2021-09-24T19:39:32.000Z"
+            },
+            {
+                "name": "Set up Python environment variable (Unix)",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 4,
+                "started_at": "2021-09-24T19:39:32.000Z",
+                "completed_at": "2021-09-24T19:39:32.000Z"
+            },
+            {
+                "name": "Set up Python environment variable (Windows)",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 5,
+                "started_at": "2021-09-24T19:39:32.000Z",
+                "completed_at": "2021-09-24T19:39:32.000Z"
+            },
+            {
+                "name": "Extract branch name",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 6,
+                "started_at": "2021-09-24T19:39:32.000Z",
+                "completed_at": "2021-09-24T19:39:33.000Z"
+            },
+            {
+                "name": "Build on Unix",
+                "status": "completed",
+                "conclusion": "failure",
+                "number": 7,
+                "started_at": "2021-09-24T19:39:33.000Z",
+                "completed_at": "2021-09-24T19:40:57.000Z"
+            },
+            {
+                "name": "Build on Windows",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 8,
+                "started_at": "2021-09-24T19:40:57.000Z",
+                "completed_at": "2021-09-24T19:40:57.000Z"
+            },
+            {
+                "name": "Post Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 16,
+                "started_at": "2021-09-24T19:40:57.000Z",
+                "completed_at": "2021-09-24T19:40:57.000Z"
+            },
+            {
+                "name": "Complete job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 17,
+                "started_at": "2021-09-24T19:40:57.000Z",
+                "completed_at": "2021-09-24T19:40:57.000Z"
+            }
+        ],
+        "check_run_url": "https://api.github.com/repos/craffael/hunter/check-runs/3704026246"
+    },
+    {
+        "id": 3704026484,
+        "run_id": 1271130743,
+        "run_url": "https://api.github.com/repos/craffael/hunter/actions/runs/1271130743",
+        "node_id": "CR_kwDOCVzNwc7cxvV0",
+        "head_sha": "abab4b5ef58970299242e4324b18b7094fe386cd",
+        "url": "https://api.github.com/repos/craffael/hunter/actions/jobs/3704026484",
+        "html_url": "https://github.com/craffael/hunter/runs/3704026484",
+        "status": "completed",
+        "conclusion": "success",
+        "started_at": "2021-09-24T19:39:18Z",
+        "completed_at": "2021-09-24T19:40:18Z",
+        "name": "complex_bessel mingw-cxx17 windows-2016",
+        "steps": [
+            {
+                "name": "Set up job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 1,
+                "started_at": "2021-09-24T19:39:18.000Z",
+                "completed_at": "2021-09-24T19:39:20.000Z"
+            },
+            {
+                "name": "Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 2,
+                "started_at": "2021-09-24T19:39:20.000Z",
+                "completed_at": "2021-09-24T19:39:44.000Z"
+            },
+            {
+                "name": "Set up Python",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 3,
+                "started_at": "2021-09-24T19:39:44.000Z",
+                "completed_at": "2021-09-24T19:39:44.000Z"
+            },
+            {
+                "name": "Set up Python environment variable (Unix)",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 4,
+                "started_at": "2021-09-24T19:39:44.000Z",
+                "completed_at": "2021-09-24T19:39:44.000Z"
+            },
+            {
+                "name": "Set up Python environment variable (Windows)",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 5,
+                "started_at": "2021-09-24T19:39:44.000Z",
+                "completed_at": "2021-09-24T19:39:45.000Z"
+            },
+            {
+                "name": "Extract branch name",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 6,
+                "started_at": "2021-09-24T19:39:45.000Z",
+                "completed_at": "2021-09-24T19:39:46.000Z"
+            },
+            {
+                "name": "Build on Unix",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 7,
+                "started_at": "2021-09-24T19:39:46.000Z",
+                "completed_at": "2021-09-24T19:39:46.000Z"
+            },
+            {
+                "name": "Build on Windows",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 8,
+                "started_at": "2021-09-24T19:39:46.000Z",
+                "completed_at": "2021-09-24T19:40:09.000Z"
+            },
+            {
+                "name": "Post Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 16,
+                "started_at": "2021-09-24T19:40:09.000Z",
+                "completed_at": "2021-09-24T19:40:18.000Z"
+            },
+            {
+                "name": "Complete job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 17,
+                "started_at": "2021-09-24T19:40:18.000Z",
+                "completed_at": "2021-09-24T19:40:18.000Z"
+            }
+        ],
+        "check_run_url": "https://api.github.com/repos/craffael/hunter/check-runs/3704026484"
+    },
+    {
+        "id": 3704026526,
+        "run_id": 1271130743,
+        "run_url": "https://api.github.com/repos/craffael/hunter/actions/runs/1271130743",
+        "node_id": "CR_kwDOCVzNwc7cxvWe",
+        "head_sha": "abab4b5ef58970299242e4324b18b7094fe386cd",
+        "url": "https://api.github.com/repos/craffael/hunter/actions/jobs/3704026526",
+        "html_url": "https://github.com/craffael/hunter/runs/3704026526",
+        "status": "completed",
+        "conclusion": "success",
+        "started_at": "2021-09-24T19:39:18Z",
+        "completed_at": "2021-09-24T19:40:21Z",
+        "name": "complex_bessel msys-cxx17 windows-2016",
+        "steps": [
+            {
+                "name": "Set up job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 1,
+                "started_at": "2021-09-24T19:39:18.000Z",
+                "completed_at": "2021-09-24T19:39:20.000Z"
+            },
+            {
+                "name": "Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 2,
+                "started_at": "2021-09-24T19:39:20.000Z",
+                "completed_at": "2021-09-24T19:39:44.000Z"
+            },
+            {
+                "name": "Set up Python",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 3,
+                "started_at": "2021-09-24T19:39:44.000Z",
+                "completed_at": "2021-09-24T19:39:44.000Z"
+            },
+            {
+                "name": "Set up Python environment variable (Unix)",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 4,
+                "started_at": "2021-09-24T19:39:44.000Z",
+                "completed_at": "2021-09-24T19:39:44.000Z"
+            },
+            {
+                "name": "Set up Python environment variable (Windows)",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 5,
+                "started_at": "2021-09-24T19:39:44.000Z",
+                "completed_at": "2021-09-24T19:39:46.000Z"
+            },
+            {
+                "name": "Extract branch name",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 6,
+                "started_at": "2021-09-24T19:39:46.000Z",
+                "completed_at": "2021-09-24T19:39:46.000Z"
+            },
+            {
+                "name": "Build on Unix",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 7,
+                "started_at": "2021-09-24T19:39:46.000Z",
+                "completed_at": "2021-09-24T19:39:46.000Z"
+            },
+            {
+                "name": "Build on Windows",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 8,
+                "started_at": "2021-09-24T19:39:46.000Z",
+                "completed_at": "2021-09-24T19:40:11.000Z"
+            },
+            {
+                "name": "Post Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 16,
+                "started_at": "2021-09-24T19:40:11.000Z",
+                "completed_at": "2021-09-24T19:40:21.000Z"
+            },
+            {
+                "name": "Complete job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 17,
+                "started_at": "2021-09-24T19:40:21.000Z",
+                "completed_at": "2021-09-24T19:40:21.000Z"
+            }
+        ],
+        "check_run_url": "https://api.github.com/repos/craffael/hunter/check-runs/3704026526"
+    },
+    {
+        "id": 3704026293,
+        "run_id": 1271130743,
+        "run_url": "https://api.github.com/repos/craffael/hunter/actions/runs/1271130743",
+        "node_id": "CR_kwDOCVzNwc7cxvS1",
+        "head_sha": "abab4b5ef58970299242e4324b18b7094fe386cd",
+        "url": "https://api.github.com/repos/craffael/hunter/actions/jobs/3704026293",
+        "html_url": "https://github.com/craffael/hunter/runs/3704026293",
+        "status": "completed",
+        "conclusion": "success",
+        "started_at": "2021-09-24T19:39:17Z",
+        "completed_at": "2021-09-24T19:40:20Z",
+        "name": "complex_bessel ninja-vs-15-2017-win64-cxx17 windows-2016",
+        "steps": [
+            {
+                "name": "Set up job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 1,
+                "started_at": "2021-09-24T19:39:17.000Z",
+                "completed_at": "2021-09-24T19:39:19.000Z"
+            },
+            {
+                "name": "Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 2,
+                "started_at": "2021-09-24T19:39:19.000Z",
+                "completed_at": "2021-09-24T19:39:43.000Z"
+            },
+            {
+                "name": "Set up Python",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 3,
+                "started_at": "2021-09-24T19:39:43.000Z",
+                "completed_at": "2021-09-24T19:39:43.000Z"
+            },
+            {
+                "name": "Set up Python environment variable (Unix)",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 4,
+                "started_at": "2021-09-24T19:39:43.000Z",
+                "completed_at": "2021-09-24T19:39:43.000Z"
+            },
+            {
+                "name": "Set up Python environment variable (Windows)",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 5,
+                "started_at": "2021-09-24T19:39:43.000Z",
+                "completed_at": "2021-09-24T19:39:45.000Z"
+            },
+            {
+                "name": "Extract branch name",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 6,
+                "started_at": "2021-09-24T19:39:45.000Z",
+                "completed_at": "2021-09-24T19:39:45.000Z"
+            },
+            {
+                "name": "Build on Unix",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 7,
+                "started_at": "2021-09-24T19:39:45.000Z",
+                "completed_at": "2021-09-24T19:39:45.000Z"
+            },
+            {
+                "name": "Build on Windows",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 8,
+                "started_at": "2021-09-24T19:39:45.000Z",
+                "completed_at": "2021-09-24T19:40:11.000Z"
+            },
+            {
+                "name": "Post Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 16,
+                "started_at": "2021-09-24T19:40:11.000Z",
+                "completed_at": "2021-09-24T19:40:20.000Z"
+            },
+            {
+                "name": "Complete job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 17,
+                "started_at": "2021-09-24T19:40:20.000Z",
+                "completed_at": "2021-09-24T19:40:20.000Z"
+            }
+        ],
+        "check_run_url": "https://api.github.com/repos/craffael/hunter/check-runs/3704026293"
+    },
+    {
+        "id": 3704026331,
+        "run_id": 1271130743,
+        "run_url": "https://api.github.com/repos/craffael/hunter/actions/runs/1271130743",
+        "node_id": "CR_kwDOCVzNwc7cxvTb",
+        "head_sha": "abab4b5ef58970299242e4324b18b7094fe386cd",
+        "url": "https://api.github.com/repos/craffael/hunter/actions/jobs/3704026331",
+        "html_url": "https://github.com/craffael/hunter/runs/3704026331",
+        "status": "completed",
+        "conclusion": "success",
+        "started_at": "2021-09-24T19:39:16Z",
+        "completed_at": "2021-09-24T19:40:10Z",
+        "name": "complex_bessel nmake-vs-15-2017-win64-cxx17 windows-2016",
+        "steps": [
+            {
+                "name": "Set up job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 1,
+                "started_at": "2021-09-24T19:39:16.000Z",
+                "completed_at": "2021-09-24T19:39:19.000Z"
+            },
+            {
+                "name": "Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 2,
+                "started_at": "2021-09-24T19:39:19.000Z",
+                "completed_at": "2021-09-24T19:39:39.000Z"
+            },
+            {
+                "name": "Set up Python",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 3,
+                "started_at": "2021-09-24T19:39:39.000Z",
+                "completed_at": "2021-09-24T19:39:39.000Z"
+            },
+            {
+                "name": "Set up Python environment variable (Unix)",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 4,
+                "started_at": "2021-09-24T19:39:39.000Z",
+                "completed_at": "2021-09-24T19:39:39.000Z"
+            },
+            {
+                "name": "Set up Python environment variable (Windows)",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 5,
+                "started_at": "2021-09-24T19:39:39.000Z",
+                "completed_at": "2021-09-24T19:39:40.000Z"
+            },
+            {
+                "name": "Extract branch name",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 6,
+                "started_at": "2021-09-24T19:39:40.000Z",
+                "completed_at": "2021-09-24T19:39:40.000Z"
+            },
+            {
+                "name": "Build on Unix",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 7,
+                "started_at": "2021-09-24T19:39:40.000Z",
+                "completed_at": "2021-09-24T19:39:40.000Z"
+            },
+            {
+                "name": "Build on Windows",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 8,
+                "started_at": "2021-09-24T19:39:40.000Z",
+                "completed_at": "2021-09-24T19:40:02.000Z"
+            },
+            {
+                "name": "Post Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 16,
+                "started_at": "2021-09-24T19:40:02.000Z",
+                "completed_at": "2021-09-24T19:40:10.000Z"
+            },
+            {
+                "name": "Complete job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 17,
+                "started_at": "2021-09-24T19:40:10.000Z",
+                "completed_at": "2021-09-24T19:40:10.000Z"
+            }
+        ],
+        "check_run_url": "https://api.github.com/repos/craffael/hunter/check-runs/3704026331"
+    },
+    {
+        "id": 3704026178,
+        "run_id": 1271130743,
+        "run_url": "https://api.github.com/repos/craffael/hunter/actions/runs/1271130743",
+        "node_id": "CR_kwDOCVzNwc7cxvRC",
+        "head_sha": "abab4b5ef58970299242e4324b18b7094fe386cd",
+        "url": "https://api.github.com/repos/craffael/hunter/actions/jobs/3704026178",
+        "html_url": "https://github.com/craffael/hunter/runs/3704026178",
+        "status": "completed",
+        "conclusion": "failure",
+        "started_at": "2021-09-24T19:39:21Z",
+        "completed_at": "2021-09-24T19:40:26Z",
+        "name": "complex_bessel osx-10-15-make-cxx14 macos-10.15",
+        "steps": [
+            {
+                "name": "Set up job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 1,
+                "started_at": "2021-09-24T19:39:21.000Z",
+                "completed_at": "2021-09-24T19:39:24.000Z"
+            },
+            {
+                "name": "Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 2,
+                "started_at": "2021-09-24T19:39:24.000Z",
+                "completed_at": "2021-09-24T19:39:33.000Z"
+            },
+            {
+                "name": "Set up Python",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 3,
+                "started_at": "2021-09-24T19:39:33.000Z",
+                "completed_at": "2021-09-24T19:39:33.000Z"
+            },
+            {
+                "name": "Set up Python environment variable (Unix)",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 4,
+                "started_at": "2021-09-24T19:39:33.000Z",
+                "completed_at": "2021-09-24T19:39:33.000Z"
+            },
+            {
+                "name": "Set up Python environment variable (Windows)",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 5,
+                "started_at": "2021-09-24T19:39:33.000Z",
+                "completed_at": "2021-09-24T19:39:33.000Z"
+            },
+            {
+                "name": "Extract branch name",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 6,
+                "started_at": "2021-09-24T19:39:33.000Z",
+                "completed_at": "2021-09-24T19:39:33.000Z"
+            },
+            {
+                "name": "Build on Unix",
+                "status": "completed",
+                "conclusion": "failure",
+                "number": 7,
+                "started_at": "2021-09-24T19:39:33.000Z",
+                "completed_at": "2021-09-24T19:40:26.000Z"
+            },
+            {
+                "name": "Build on Windows",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 8,
+                "started_at": "2021-09-24T19:40:26.000Z",
+                "completed_at": "2021-09-24T19:40:26.000Z"
+            },
+            {
+                "name": "Post Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 16,
+                "started_at": "2021-09-24T19:40:26.000Z",
+                "completed_at": "2021-09-24T19:40:26.000Z"
+            },
+            {
+                "name": "Complete job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 17,
+                "started_at": "2021-09-24T19:40:26.000Z",
+                "completed_at": "2021-09-24T19:40:26.000Z"
+            }
+        ],
+        "check_run_url": "https://api.github.com/repos/craffael/hunter/check-runs/3704026178"
+    },
+    {
+        "id": 3704026216,
+        "run_id": 1271130743,
+        "run_url": "https://api.github.com/repos/craffael/hunter/actions/runs/1271130743",
+        "node_id": "CR_kwDOCVzNwc7cxvRo",
+        "head_sha": "abab4b5ef58970299242e4324b18b7094fe386cd",
+        "url": "https://api.github.com/repos/craffael/hunter/actions/jobs/3704026216",
+        "html_url": "https://github.com/craffael/hunter/runs/3704026216",
+        "status": "completed",
+        "conclusion": "failure",
+        "started_at": "2021-09-24T19:39:21Z",
+        "completed_at": "2021-09-24T19:40:53Z",
+        "name": "complex_bessel osx-11-1-arch-universal2-cxx17 macos-10.15",
+        "steps": [
+            {
+                "name": "Set up job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 1,
+                "started_at": "2021-09-24T19:39:21.000Z",
+                "completed_at": "2021-09-24T19:39:23.000Z"
+            },
+            {
+                "name": "Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 2,
+                "started_at": "2021-09-24T19:39:23.000Z",
+                "completed_at": "2021-09-24T19:39:32.000Z"
+            },
+            {
+                "name": "Set up Python",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 3,
+                "started_at": "2021-09-24T19:39:32.000Z",
+                "completed_at": "2021-09-24T19:39:32.000Z"
+            },
+            {
+                "name": "Set up Python environment variable (Unix)",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 4,
+                "started_at": "2021-09-24T19:39:32.000Z",
+                "completed_at": "2021-09-24T19:39:32.000Z"
+            },
+            {
+                "name": "Set up Python environment variable (Windows)",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 5,
+                "started_at": "2021-09-24T19:39:32.000Z",
+                "completed_at": "2021-09-24T19:39:32.000Z"
+            },
+            {
+                "name": "Extract branch name",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 6,
+                "started_at": "2021-09-24T19:39:32.000Z",
+                "completed_at": "2021-09-24T19:39:33.000Z"
+            },
+            {
+                "name": "Build on Unix",
+                "status": "completed",
+                "conclusion": "failure",
+                "number": 7,
+                "started_at": "2021-09-24T19:39:33.000Z",
+                "completed_at": "2021-09-24T19:40:52.000Z"
+            },
+            {
+                "name": "Build on Windows",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 8,
+                "started_at": "2021-09-24T19:40:52.000Z",
+                "completed_at": "2021-09-24T19:40:52.000Z"
+            },
+            {
+                "name": "Post Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 16,
+                "started_at": "2021-09-24T19:40:52.000Z",
+                "completed_at": "2021-09-24T19:40:53.000Z"
+            },
+            {
+                "name": "Complete job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 17,
+                "started_at": "2021-09-24T19:40:53.000Z",
+                "completed_at": "2021-09-24T19:40:53.000Z"
+            }
+        ],
+        "check_run_url": "https://api.github.com/repos/craffael/hunter/check-runs/3704026216"
+    },
+    {
+        "id": 3704026042,
+        "run_id": 1271130743,
+        "run_url": "https://api.github.com/repos/craffael/hunter/actions/runs/1271130743",
+        "node_id": "CR_kwDOCVzNwc7cxvO6",
+        "head_sha": "abab4b5ef58970299242e4324b18b7094fe386cd",
+        "url": "https://api.github.com/repos/craffael/hunter/actions/jobs/3704026042",
+        "html_url": "https://github.com/craffael/hunter/runs/3704026042",
+        "status": "completed",
+        "conclusion": "failure",
+        "started_at": "2021-09-24T19:39:17Z",
+        "completed_at": "2021-09-24T19:39:53Z",
+        "name": "complex_bessel sanitize-address-cxx17 ubuntu-20.04",
+        "steps": [
+            {
+                "name": "Set up job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 1,
+                "started_at": "2021-09-24T19:39:17.000Z",
+                "completed_at": "2021-09-24T19:39:19.000Z"
+            },
+            {
+                "name": "Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 2,
+                "started_at": "2021-09-24T19:39:19.000Z",
+                "completed_at": "2021-09-24T19:39:22.000Z"
+            },
+            {
+                "name": "Set up Python",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 3,
+                "started_at": "2021-09-24T19:39:22.000Z",
+                "completed_at": "2021-09-24T19:39:22.000Z"
+            },
+            {
+                "name": "Set up Python environment variable (Unix)",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 4,
+                "started_at": "2021-09-24T19:39:22.000Z",
+                "completed_at": "2021-09-24T19:39:22.000Z"
+            },
+            {
+                "name": "Set up Python environment variable (Windows)",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 5,
+                "started_at": "2021-09-24T19:39:22.000Z",
+                "completed_at": "2021-09-24T19:39:22.000Z"
+            },
+            {
+                "name": "Extract branch name",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 6,
+                "started_at": "2021-09-24T19:39:22.000Z",
+                "completed_at": "2021-09-24T19:39:22.000Z"
+            },
+            {
+                "name": "Build on Unix",
+                "status": "completed",
+                "conclusion": "failure",
+                "number": 7,
+                "started_at": "2021-09-24T19:39:22.000Z",
+                "completed_at": "2021-09-24T19:39:53.000Z"
+            },
+            {
+                "name": "Build on Windows",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 8,
+                "started_at": "2021-09-24T19:39:53.000Z",
+                "completed_at": "2021-09-24T19:39:53.000Z"
+            },
+            {
+                "name": "Post Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 16,
+                "started_at": "2021-09-24T19:39:53.000Z",
+                "completed_at": "2021-09-24T19:39:53.000Z"
+            },
+            {
+                "name": "Complete job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 17,
+                "started_at": "2021-09-24T19:39:53.000Z",
+                "completed_at": "2021-09-24T19:39:53.000Z"
+            }
+        ],
+        "check_run_url": "https://api.github.com/repos/craffael/hunter/check-runs/3704026042"
+    },
+    {
+        "id": 3704026094,
+        "run_id": 1271130743,
+        "run_url": "https://api.github.com/repos/craffael/hunter/actions/runs/1271130743",
+        "node_id": "CR_kwDOCVzNwc7cxvPu",
+        "head_sha": "abab4b5ef58970299242e4324b18b7094fe386cd",
+        "url": "https://api.github.com/repos/craffael/hunter/actions/jobs/3704026094",
+        "html_url": "https://github.com/craffael/hunter/runs/3704026094",
+        "status": "completed",
+        "conclusion": "failure",
+        "started_at": "2021-09-24T19:39:17Z",
+        "completed_at": "2021-09-24T19:39:58Z",
+        "name": "complex_bessel sanitize-leak-cxx17 ubuntu-20.04",
+        "steps": [
+            {
+                "name": "Set up job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 1,
+                "started_at": "2021-09-24T19:39:17.000Z",
+                "completed_at": "2021-09-24T19:39:20.000Z"
+            },
+            {
+                "name": "Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 2,
+                "started_at": "2021-09-24T19:39:20.000Z",
+                "completed_at": "2021-09-24T19:39:24.000Z"
+            },
+            {
+                "name": "Set up Python",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 3,
+                "started_at": "2021-09-24T19:39:24.000Z",
+                "completed_at": "2021-09-24T19:39:24.000Z"
+            },
+            {
+                "name": "Set up Python environment variable (Unix)",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 4,
+                "started_at": "2021-09-24T19:39:24.000Z",
+                "completed_at": "2021-09-24T19:39:24.000Z"
+            },
+            {
+                "name": "Set up Python environment variable (Windows)",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 5,
+                "started_at": "2021-09-24T19:39:24.000Z",
+                "completed_at": "2021-09-24T19:39:24.000Z"
+            },
+            {
+                "name": "Extract branch name",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 6,
+                "started_at": "2021-09-24T19:39:24.000Z",
+                "completed_at": "2021-09-24T19:39:25.000Z"
+            },
+            {
+                "name": "Build on Unix",
+                "status": "completed",
+                "conclusion": "failure",
+                "number": 7,
+                "started_at": "2021-09-24T19:39:25.000Z",
+                "completed_at": "2021-09-24T19:39:58.000Z"
+            },
+            {
+                "name": "Build on Windows",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 8,
+                "started_at": "2021-09-24T19:39:58.000Z",
+                "completed_at": "2021-09-24T19:39:58.000Z"
+            },
+            {
+                "name": "Post Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 16,
+                "started_at": "2021-09-24T19:39:58.000Z",
+                "completed_at": "2021-09-24T19:39:58.000Z"
+            },
+            {
+                "name": "Complete job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 17,
+                "started_at": "2021-09-24T19:39:58.000Z",
+                "completed_at": "2021-09-24T19:39:58.000Z"
+            }
+        ],
+        "check_run_url": "https://api.github.com/repos/craffael/hunter/check-runs/3704026094"
+    },
+    {
+        "id": 3704026140,
+        "run_id": 1271130743,
+        "run_url": "https://api.github.com/repos/craffael/hunter/actions/runs/1271130743",
+        "node_id": "CR_kwDOCVzNwc7cxvQc",
+        "head_sha": "abab4b5ef58970299242e4324b18b7094fe386cd",
+        "url": "https://api.github.com/repos/craffael/hunter/actions/jobs/3704026140",
+        "html_url": "https://github.com/craffael/hunter/runs/3704026140",
+        "status": "completed",
+        "conclusion": "failure",
+        "started_at": "2021-09-24T19:39:19Z",
+        "completed_at": "2021-09-24T19:39:56Z",
+        "name": "complex_bessel sanitize-thread-cxx17 ubuntu-20.04",
+        "steps": [
+            {
+                "name": "Set up job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 1,
+                "started_at": "2021-09-24T19:39:19.000Z",
+                "completed_at": "2021-09-24T19:39:21.000Z"
+            },
+            {
+                "name": "Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 2,
+                "started_at": "2021-09-24T19:39:21.000Z",
+                "completed_at": "2021-09-24T19:39:26.000Z"
+            },
+            {
+                "name": "Set up Python",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 3,
+                "started_at": "2021-09-24T19:39:26.000Z",
+                "completed_at": "2021-09-24T19:39:26.000Z"
+            },
+            {
+                "name": "Set up Python environment variable (Unix)",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 4,
+                "started_at": "2021-09-24T19:39:26.000Z",
+                "completed_at": "2021-09-24T19:39:26.000Z"
+            },
+            {
+                "name": "Set up Python environment variable (Windows)",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 5,
+                "started_at": "2021-09-24T19:39:26.000Z",
+                "completed_at": "2021-09-24T19:39:26.000Z"
+            },
+            {
+                "name": "Extract branch name",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 6,
+                "started_at": "2021-09-24T19:39:26.000Z",
+                "completed_at": "2021-09-24T19:39:26.000Z"
+            },
+            {
+                "name": "Build on Unix",
+                "status": "completed",
+                "conclusion": "failure",
+                "number": 7,
+                "started_at": "2021-09-24T19:39:26.000Z",
+                "completed_at": "2021-09-24T19:39:56.000Z"
+            },
+            {
+                "name": "Build on Windows",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 8,
+                "started_at": "2021-09-24T19:39:56.000Z",
+                "completed_at": "2021-09-24T19:39:56.000Z"
+            },
+            {
+                "name": "Post Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 16,
+                "started_at": "2021-09-24T19:39:56.000Z",
+                "completed_at": "2021-09-24T19:39:56.000Z"
+            },
+            {
+                "name": "Complete job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 17,
+                "started_at": "2021-09-24T19:39:56.000Z",
+                "completed_at": "2021-09-24T19:39:56.000Z"
+            }
+        ],
+        "check_run_url": "https://api.github.com/repos/craffael/hunter/check-runs/3704026140"
+    },
+    {
+        "id": 3704026439,
+        "run_id": 1271130743,
+        "run_url": "https://api.github.com/repos/craffael/hunter/actions/runs/1271130743",
+        "node_id": "CR_kwDOCVzNwc7cxvVH",
+        "head_sha": "abab4b5ef58970299242e4324b18b7094fe386cd",
+        "url": "https://api.github.com/repos/craffael/hunter/actions/jobs/3704026439",
+        "html_url": "https://github.com/craffael/hunter/runs/3704026439",
+        "status": "completed",
+        "conclusion": "success",
+        "started_at": "2021-09-24T19:39:18Z",
+        "completed_at": "2021-09-24T19:40:20Z",
+        "name": "complex_bessel vs-14-2015-sdk-8-1 windows-2016",
+        "steps": [
+            {
+                "name": "Set up job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 1,
+                "started_at": "2021-09-24T19:39:18.000Z",
+                "completed_at": "2021-09-24T19:39:20.000Z"
+            },
+            {
+                "name": "Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 2,
+                "started_at": "2021-09-24T19:39:20.000Z",
+                "completed_at": "2021-09-24T19:39:45.000Z"
+            },
+            {
+                "name": "Set up Python",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 3,
+                "started_at": "2021-09-24T19:39:45.000Z",
+                "completed_at": "2021-09-24T19:39:45.000Z"
+            },
+            {
+                "name": "Set up Python environment variable (Unix)",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 4,
+                "started_at": "2021-09-24T19:39:45.000Z",
+                "completed_at": "2021-09-24T19:39:45.000Z"
+            },
+            {
+                "name": "Set up Python environment variable (Windows)",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 5,
+                "started_at": "2021-09-24T19:39:45.000Z",
+                "completed_at": "2021-09-24T19:39:46.000Z"
+            },
+            {
+                "name": "Extract branch name",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 6,
+                "started_at": "2021-09-24T19:39:46.000Z",
+                "completed_at": "2021-09-24T19:39:47.000Z"
+            },
+            {
+                "name": "Build on Unix",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 7,
+                "started_at": "2021-09-24T19:39:47.000Z",
+                "completed_at": "2021-09-24T19:39:47.000Z"
+            },
+            {
+                "name": "Build on Windows",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 8,
+                "started_at": "2021-09-24T19:39:47.000Z",
+                "completed_at": "2021-09-24T19:40:10.000Z"
+            },
+            {
+                "name": "Post Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 16,
+                "started_at": "2021-09-24T19:40:10.000Z",
+                "completed_at": "2021-09-24T19:40:20.000Z"
+            },
+            {
+                "name": "Complete job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 17,
+                "started_at": "2021-09-24T19:40:20.000Z",
+                "completed_at": "2021-09-24T19:40:20.000Z"
+            }
+        ],
+        "check_run_url": "https://api.github.com/repos/craffael/hunter/check-runs/3704026439"
+    },
+    {
+        "id": 3704026397,
+        "run_id": 1271130743,
+        "run_url": "https://api.github.com/repos/craffael/hunter/actions/runs/1271130743",
+        "node_id": "CR_kwDOCVzNwc7cxvUd",
+        "head_sha": "abab4b5ef58970299242e4324b18b7094fe386cd",
+        "url": "https://api.github.com/repos/craffael/hunter/actions/jobs/3704026397",
+        "html_url": "https://github.com/craffael/hunter/runs/3704026397",
+        "status": "completed",
+        "conclusion": "success",
+        "started_at": "2021-09-24T19:39:19Z",
+        "completed_at": "2021-09-24T19:40:19Z",
+        "name": "complex_bessel vs-15-2017-win64-cxx17 windows-2016",
+        "steps": [
+            {
+                "name": "Set up job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 1,
+                "started_at": "2021-09-24T19:39:19.000Z",
+                "completed_at": "2021-09-24T19:39:20.000Z"
+            },
+            {
+                "name": "Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 2,
+                "started_at": "2021-09-24T19:39:20.000Z",
+                "completed_at": "2021-09-24T19:39:42.000Z"
+            },
+            {
+                "name": "Set up Python",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 3,
+                "started_at": "2021-09-24T19:39:42.000Z",
+                "completed_at": "2021-09-24T19:39:43.000Z"
+            },
+            {
+                "name": "Set up Python environment variable (Unix)",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 4,
+                "started_at": "2021-09-24T19:39:43.000Z",
+                "completed_at": "2021-09-24T19:39:43.000Z"
+            },
+            {
+                "name": "Set up Python environment variable (Windows)",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 5,
+                "started_at": "2021-09-24T19:39:43.000Z",
+                "completed_at": "2021-09-24T19:39:44.000Z"
+            },
+            {
+                "name": "Extract branch name",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 6,
+                "started_at": "2021-09-24T19:39:44.000Z",
+                "completed_at": "2021-09-24T19:39:44.000Z"
+            },
+            {
+                "name": "Build on Unix",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 7,
+                "started_at": "2021-09-24T19:39:44.000Z",
+                "completed_at": "2021-09-24T19:39:44.000Z"
+            },
+            {
+                "name": "Build on Windows",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 8,
+                "started_at": "2021-09-24T19:39:44.000Z",
+                "completed_at": "2021-09-24T19:40:09.000Z"
+            },
+            {
+                "name": "Post Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 16,
+                "started_at": "2021-09-24T19:40:09.000Z",
+                "completed_at": "2021-09-24T19:40:18.000Z"
+            },
+            {
+                "name": "Complete job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 17,
+                "started_at": "2021-09-24T19:40:18.000Z",
+                "completed_at": "2021-09-24T19:40:19.000Z"
+            }
+        ],
+        "check_run_url": "https://api.github.com/repos/craffael/hunter/check-runs/3704026397"
+    },
+    {
+        "id": 3704026367,
+        "run_id": 1271130743,
+        "run_url": "https://api.github.com/repos/craffael/hunter/actions/runs/1271130743",
+        "node_id": "CR_kwDOCVzNwc7cxvT_",
+        "head_sha": "abab4b5ef58970299242e4324b18b7094fe386cd",
+        "url": "https://api.github.com/repos/craffael/hunter/actions/jobs/3704026367",
+        "html_url": "https://github.com/craffael/hunter/runs/3704026367",
+        "status": "completed",
+        "conclusion": "success",
+        "started_at": "2021-09-24T19:39:19Z",
+        "completed_at": "2021-09-24T19:40:01Z",
+        "name": "complex_bessel vs-16-2019-win64-sdk-10-0-18362-0-cxx17 windows-2019",
+        "steps": [
+            {
+                "name": "Set up job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 1,
+                "started_at": "2021-09-24T19:39:19.000Z",
+                "completed_at": "2021-09-24T19:39:22.000Z"
+            },
+            {
+                "name": "Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 2,
+                "started_at": "2021-09-24T19:39:22.000Z",
+                "completed_at": "2021-09-24T19:39:36.000Z"
+            },
+            {
+                "name": "Set up Python",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 3,
+                "started_at": "2021-09-24T19:39:36.000Z",
+                "completed_at": "2021-09-24T19:39:36.000Z"
+            },
+            {
+                "name": "Set up Python environment variable (Unix)",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 4,
+                "started_at": "2021-09-24T19:39:36.000Z",
+                "completed_at": "2021-09-24T19:39:36.000Z"
+            },
+            {
+                "name": "Set up Python environment variable (Windows)",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 5,
+                "started_at": "2021-09-24T19:39:36.000Z",
+                "completed_at": "2021-09-24T19:39:37.000Z"
+            },
+            {
+                "name": "Extract branch name",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 6,
+                "started_at": "2021-09-24T19:39:37.000Z",
+                "completed_at": "2021-09-24T19:39:38.000Z"
+            },
+            {
+                "name": "Build on Unix",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 7,
+                "started_at": "2021-09-24T19:39:38.000Z",
+                "completed_at": "2021-09-24T19:39:38.000Z"
+            },
+            {
+                "name": "Build on Windows",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 8,
+                "started_at": "2021-09-24T19:39:38.000Z",
+                "completed_at": "2021-09-24T19:39:58.000Z"
+            },
+            {
+                "name": "Post Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 16,
+                "started_at": "2021-09-24T19:39:58.000Z",
+                "completed_at": "2021-09-24T19:40:01.000Z"
+            },
+            {
+                "name": "Complete job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 17,
+                "started_at": "2021-09-24T19:40:01.000Z",
+                "completed_at": "2021-09-24T19:40:01.000Z"
+            }
+        ],
+        "check_run_url": "https://api.github.com/repos/craffael/hunter/check-runs/3704026367"
+    }
+]

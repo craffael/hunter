@@ -1,0 +1,1278 @@
+[
+    {
+        "id": 25682226553,
+        "run_id": 9329603522,
+        "workflow_name": "CI",
+        "head_branch": "msvc_1940",
+        "run_url": "https://api.github.com/repos/craffael/hunter/actions/runs/9329603522",
+        "run_attempt": 1,
+        "node_id": "CR_kwDOCVzNwc8AAAAF-seteQ",
+        "head_sha": "b79fdccf4fcf0370e13352c837b1f78b977c2038",
+        "url": "https://api.github.com/repos/craffael/hunter/actions/jobs/25682226553",
+        "html_url": "https://github.com/craffael/hunter/actions/runs/9329603522/job/25682226553",
+        "status": "completed",
+        "conclusion": "failure",
+        "created_at": "2024-06-01T10:29:57Z",
+        "started_at": "2024-06-01T10:31:32Z",
+        "completed_at": "2024-06-01T10:37:32Z",
+        "name": "ceres-solver analyze-cxx17 ubuntu-20.04",
+        "steps": [
+            {
+                "name": "Set up job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 1,
+                "started_at": "2024-06-01T10:31:32Z",
+                "completed_at": "2024-06-01T10:31:32Z"
+            },
+            {
+                "name": "Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 2,
+                "started_at": "2024-06-01T10:31:32Z",
+                "completed_at": "2024-06-01T10:31:35Z"
+            },
+            {
+                "name": "Set up Python",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 3,
+                "started_at": "2024-06-01T10:31:35Z",
+                "completed_at": "2024-06-01T10:31:35Z"
+            },
+            {
+                "name": "Set up Python environment variable (Unix)",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 4,
+                "started_at": "2024-06-01T10:31:36Z",
+                "completed_at": "2024-06-01T10:31:36Z"
+            },
+            {
+                "name": "Set up Python environment variable (Windows)",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 5,
+                "started_at": "2024-06-01T10:31:36Z",
+                "completed_at": "2024-06-01T10:31:36Z"
+            },
+            {
+                "name": "Build hunter_tests Unix",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 6,
+                "started_at": "2024-06-01T10:31:36Z",
+                "completed_at": "2024-06-01T10:31:36Z"
+            },
+            {
+                "name": "Build on Unix",
+                "status": "completed",
+                "conclusion": "failure",
+                "number": 7,
+                "started_at": "2024-06-01T10:31:36Z",
+                "completed_at": "2024-06-01T10:37:29Z"
+            },
+            {
+                "name": "Build on Windows",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 8,
+                "started_at": "2024-06-01T10:37:30Z",
+                "completed_at": "2024-06-01T10:37:30Z"
+            },
+            {
+                "name": "Post Set up Python",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 15,
+                "started_at": "2024-06-01T10:37:30Z",
+                "completed_at": "2024-06-01T10:37:30Z"
+            },
+            {
+                "name": "Post Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 16,
+                "started_at": "2024-06-01T10:37:30Z",
+                "completed_at": "2024-06-01T10:37:30Z"
+            },
+            {
+                "name": "Complete job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 17,
+                "started_at": "2024-06-01T10:37:29Z",
+                "completed_at": "2024-06-01T10:37:30Z"
+            }
+        ],
+        "check_run_url": "https://api.github.com/repos/craffael/hunter/check-runs/25682226553",
+        "labels": [
+            "ubuntu-20.04"
+        ],
+        "runner_id": 7,
+        "runner_name": "GitHub Actions 7",
+        "runner_group_id": 2,
+        "runner_group_name": "GitHub Actions"
+    },
+    {
+        "id": 25682226487,
+        "run_id": 9329603522,
+        "workflow_name": "CI",
+        "head_branch": "msvc_1940",
+        "run_url": "https://api.github.com/repos/craffael/hunter/actions/runs/9329603522",
+        "run_attempt": 1,
+        "node_id": "CR_kwDOCVzNwc8AAAAF-setNw",
+        "head_sha": "b79fdccf4fcf0370e13352c837b1f78b977c2038",
+        "url": "https://api.github.com/repos/craffael/hunter/actions/jobs/25682226487",
+        "html_url": "https://github.com/craffael/hunter/actions/runs/9329603522/job/25682226487",
+        "status": "completed",
+        "conclusion": "failure",
+        "created_at": "2024-06-01T10:29:57Z",
+        "started_at": "2024-06-01T10:31:35Z",
+        "completed_at": "2024-06-01T10:32:38Z",
+        "name": "ceres-solver android-ndk-r17-api-24-arm64-v8a-clang-libcxx14 ubuntu-20.04",
+        "steps": [
+            {
+                "name": "Set up job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 1,
+                "started_at": "2024-06-01T10:31:34Z",
+                "completed_at": "2024-06-01T10:31:35Z"
+            },
+            {
+                "name": "Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 2,
+                "started_at": "2024-06-01T10:31:35Z",
+                "completed_at": "2024-06-01T10:31:38Z"
+            },
+            {
+                "name": "Set up Python",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 3,
+                "started_at": "2024-06-01T10:31:38Z",
+                "completed_at": "2024-06-01T10:31:38Z"
+            },
+            {
+                "name": "Set up Python environment variable (Unix)",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 4,
+                "started_at": "2024-06-01T10:31:38Z",
+                "completed_at": "2024-06-01T10:31:38Z"
+            },
+            {
+                "name": "Set up Python environment variable (Windows)",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 5,
+                "started_at": "2024-06-01T10:31:38Z",
+                "completed_at": "2024-06-01T10:31:38Z"
+            },
+            {
+                "name": "Build hunter_tests Unix",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 6,
+                "started_at": "2024-06-01T10:31:38Z",
+                "completed_at": "2024-06-01T10:31:38Z"
+            },
+            {
+                "name": "Build on Unix",
+                "status": "completed",
+                "conclusion": "failure",
+                "number": 7,
+                "started_at": "2024-06-01T10:31:38Z",
+                "completed_at": "2024-06-01T10:32:36Z"
+            },
+            {
+                "name": "Build on Windows",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 8,
+                "started_at": "2024-06-01T10:32:36Z",
+                "completed_at": "2024-06-01T10:32:36Z"
+            },
+            {
+                "name": "Post Set up Python",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 15,
+                "started_at": "2024-06-01T10:32:36Z",
+                "completed_at": "2024-06-01T10:32:36Z"
+            },
+            {
+                "name": "Post Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 16,
+                "started_at": "2024-06-01T10:32:36Z",
+                "completed_at": "2024-06-01T10:32:36Z"
+            },
+            {
+                "name": "Complete job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 17,
+                "started_at": "2024-06-01T10:32:36Z",
+                "completed_at": "2024-06-01T10:32:36Z"
+            }
+        ],
+        "check_run_url": "https://api.github.com/repos/craffael/hunter/check-runs/25682226487",
+        "labels": [
+            "ubuntu-20.04"
+        ],
+        "runner_id": 18,
+        "runner_name": "GitHub Actions 18",
+        "runner_group_id": 2,
+        "runner_group_name": "GitHub Actions"
+    },
+    {
+        "id": 25682226175,
+        "run_id": 9329603522,
+        "workflow_name": "CI",
+        "head_branch": "msvc_1940",
+        "run_url": "https://api.github.com/repos/craffael/hunter/actions/runs/9329603522",
+        "run_attempt": 1,
+        "node_id": "CR_kwDOCVzNwc8AAAAF-ser_w",
+        "head_sha": "b79fdccf4fcf0370e13352c837b1f78b977c2038",
+        "url": "https://api.github.com/repos/craffael/hunter/actions/jobs/25682226175",
+        "html_url": "https://github.com/craffael/hunter/actions/runs/9329603522/job/25682226175",
+        "status": "completed",
+        "conclusion": "success",
+        "created_at": "2024-06-01T10:29:56Z",
+        "started_at": "2024-06-01T10:31:38Z",
+        "completed_at": "2024-06-01T10:32:42Z",
+        "name": "ceres-solver clang-cxx17 ubuntu-20.04",
+        "steps": [
+            {
+                "name": "Set up job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 1,
+                "started_at": "2024-06-01T10:31:37Z",
+                "completed_at": "2024-06-01T10:31:38Z"
+            },
+            {
+                "name": "Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 2,
+                "started_at": "2024-06-01T10:31:38Z",
+                "completed_at": "2024-06-01T10:31:43Z"
+            },
+            {
+                "name": "Set up Python",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 3,
+                "started_at": "2024-06-01T10:31:43Z",
+                "completed_at": "2024-06-01T10:31:43Z"
+            },
+            {
+                "name": "Set up Python environment variable (Unix)",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 4,
+                "started_at": "2024-06-01T10:31:44Z",
+                "completed_at": "2024-06-01T10:31:44Z"
+            },
+            {
+                "name": "Set up Python environment variable (Windows)",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 5,
+                "started_at": "2024-06-01T10:31:44Z",
+                "completed_at": "2024-06-01T10:31:44Z"
+            },
+            {
+                "name": "Build hunter_tests Unix",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 6,
+                "started_at": "2024-06-01T10:31:44Z",
+                "completed_at": "2024-06-01T10:31:44Z"
+            },
+            {
+                "name": "Build on Unix",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 7,
+                "started_at": "2024-06-01T10:31:44Z",
+                "completed_at": "2024-06-01T10:32:40Z"
+            },
+            {
+                "name": "Build on Windows",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 8,
+                "started_at": "2024-06-01T10:32:41Z",
+                "completed_at": "2024-06-01T10:32:41Z"
+            },
+            {
+                "name": "Post Set up Python",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 15,
+                "started_at": "2024-06-01T10:32:41Z",
+                "completed_at": "2024-06-01T10:32:41Z"
+            },
+            {
+                "name": "Post Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 16,
+                "started_at": "2024-06-01T10:32:41Z",
+                "completed_at": "2024-06-01T10:32:41Z"
+            },
+            {
+                "name": "Complete job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 17,
+                "started_at": "2024-06-01T10:32:41Z",
+                "completed_at": "2024-06-01T10:32:41Z"
+            }
+        ],
+        "check_run_url": "https://api.github.com/repos/craffael/hunter/check-runs/25682226175",
+        "labels": [
+            "ubuntu-20.04"
+        ],
+        "runner_id": 16,
+        "runner_name": "GitHub Actions 16",
+        "runner_group_id": 2,
+        "runner_group_name": "GitHub Actions"
+    },
+    {
+        "id": 25682226249,
+        "run_id": 9329603522,
+        "workflow_name": "CI",
+        "head_branch": "msvc_1940",
+        "run_url": "https://api.github.com/repos/craffael/hunter/actions/runs/9329603522",
+        "run_attempt": 1,
+        "node_id": "CR_kwDOCVzNwc8AAAAF-sesSQ",
+        "head_sha": "b79fdccf4fcf0370e13352c837b1f78b977c2038",
+        "url": "https://api.github.com/repos/craffael/hunter/actions/jobs/25682226249",
+        "html_url": "https://github.com/craffael/hunter/actions/runs/9329603522/job/25682226249",
+        "status": "completed",
+        "conclusion": "success",
+        "created_at": "2024-06-01T10:29:56Z",
+        "started_at": "2024-06-01T10:31:34Z",
+        "completed_at": "2024-06-01T10:32:39Z",
+        "name": "ceres-solver gcc-7-cxx17 ubuntu-20.04",
+        "steps": [
+            {
+                "name": "Set up job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 1,
+                "started_at": "2024-06-01T10:31:34Z",
+                "completed_at": "2024-06-01T10:31:34Z"
+            },
+            {
+                "name": "Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 2,
+                "started_at": "2024-06-01T10:31:35Z",
+                "completed_at": "2024-06-01T10:31:37Z"
+            },
+            {
+                "name": "Set up Python",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 3,
+                "started_at": "2024-06-01T10:31:37Z",
+                "completed_at": "2024-06-01T10:31:37Z"
+            },
+            {
+                "name": "Set up Python environment variable (Unix)",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 4,
+                "started_at": "2024-06-01T10:31:37Z",
+                "completed_at": "2024-06-01T10:31:37Z"
+            },
+            {
+                "name": "Set up Python environment variable (Windows)",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 5,
+                "started_at": "2024-06-01T10:31:37Z",
+                "completed_at": "2024-06-01T10:31:37Z"
+            },
+            {
+                "name": "Build hunter_tests Unix",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 6,
+                "started_at": "2024-06-01T10:31:37Z",
+                "completed_at": "2024-06-01T10:31:37Z"
+            },
+            {
+                "name": "Build on Unix",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 7,
+                "started_at": "2024-06-01T10:31:37Z",
+                "completed_at": "2024-06-01T10:32:37Z"
+            },
+            {
+                "name": "Build on Windows",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 8,
+                "started_at": "2024-06-01T10:32:38Z",
+                "completed_at": "2024-06-01T10:32:38Z"
+            },
+            {
+                "name": "Post Set up Python",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 15,
+                "started_at": "2024-06-01T10:32:38Z",
+                "completed_at": "2024-06-01T10:32:38Z"
+            },
+            {
+                "name": "Post Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 16,
+                "started_at": "2024-06-01T10:32:39Z",
+                "completed_at": "2024-06-01T10:32:39Z"
+            },
+            {
+                "name": "Complete job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 17,
+                "started_at": "2024-06-01T10:32:38Z",
+                "completed_at": "2024-06-01T10:32:38Z"
+            }
+        ],
+        "check_run_url": "https://api.github.com/repos/craffael/hunter/check-runs/25682226249",
+        "labels": [
+            "ubuntu-20.04"
+        ],
+        "runner_id": 10,
+        "runner_name": "GitHub Actions 10",
+        "runner_group_id": 2,
+        "runner_group_name": "GitHub Actions"
+    },
+    {
+        "id": 25682226328,
+        "run_id": 9329603522,
+        "workflow_name": "CI",
+        "head_branch": "msvc_1940",
+        "run_url": "https://api.github.com/repos/craffael/hunter/actions/runs/9329603522",
+        "run_attempt": 1,
+        "node_id": "CR_kwDOCVzNwc8AAAAF-sesmA",
+        "head_sha": "b79fdccf4fcf0370e13352c837b1f78b977c2038",
+        "url": "https://api.github.com/repos/craffael/hunter/actions/jobs/25682226328",
+        "html_url": "https://github.com/craffael/hunter/actions/runs/9329603522/job/25682226328",
+        "status": "completed",
+        "conclusion": "success",
+        "created_at": "2024-06-01T10:29:56Z",
+        "started_at": "2024-06-01T10:31:43Z",
+        "completed_at": "2024-06-01T10:32:53Z",
+        "name": "ceres-solver gcc-8-cxx17-fpic ubuntu-20.04",
+        "steps": [
+            {
+                "name": "Set up job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 1,
+                "started_at": "2024-06-01T10:31:43Z",
+                "completed_at": "2024-06-01T10:31:43Z"
+            },
+            {
+                "name": "Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 2,
+                "started_at": "2024-06-01T10:31:43Z",
+                "completed_at": "2024-06-01T10:31:46Z"
+            },
+            {
+                "name": "Set up Python",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 3,
+                "started_at": "2024-06-01T10:31:46Z",
+                "completed_at": "2024-06-01T10:31:46Z"
+            },
+            {
+                "name": "Set up Python environment variable (Unix)",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 4,
+                "started_at": "2024-06-01T10:31:46Z",
+                "completed_at": "2024-06-01T10:31:46Z"
+            },
+            {
+                "name": "Set up Python environment variable (Windows)",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 5,
+                "started_at": "2024-06-01T10:31:46Z",
+                "completed_at": "2024-06-01T10:31:46Z"
+            },
+            {
+                "name": "Build hunter_tests Unix",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 6,
+                "started_at": "2024-06-01T10:31:46Z",
+                "completed_at": "2024-06-01T10:31:46Z"
+            },
+            {
+                "name": "Build on Unix",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 7,
+                "started_at": "2024-06-01T10:31:46Z",
+                "completed_at": "2024-06-01T10:32:51Z"
+            },
+            {
+                "name": "Build on Windows",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 8,
+                "started_at": "2024-06-01T10:32:51Z",
+                "completed_at": "2024-06-01T10:32:51Z"
+            },
+            {
+                "name": "Post Set up Python",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 15,
+                "started_at": "2024-06-01T10:32:51Z",
+                "completed_at": "2024-06-01T10:32:51Z"
+            },
+            {
+                "name": "Post Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 16,
+                "started_at": "2024-06-01T10:32:51Z",
+                "completed_at": "2024-06-01T10:32:51Z"
+            },
+            {
+                "name": "Complete job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 17,
+                "started_at": "2024-06-01T10:32:51Z",
+                "completed_at": "2024-06-01T10:32:51Z"
+            }
+        ],
+        "check_run_url": "https://api.github.com/repos/craffael/hunter/check-runs/25682226328",
+        "labels": [
+            "ubuntu-20.04"
+        ],
+        "runner_id": 9,
+        "runner_name": "GitHub Actions 9",
+        "runner_group_id": 2,
+        "runner_group_name": "GitHub Actions"
+    },
+    {
+        "id": 25682226403,
+        "run_id": 9329603522,
+        "workflow_name": "CI",
+        "head_branch": "msvc_1940",
+        "run_url": "https://api.github.com/repos/craffael/hunter/actions/runs/9329603522",
+        "run_attempt": 1,
+        "node_id": "CR_kwDOCVzNwc8AAAAF-ses4w",
+        "head_sha": "b79fdccf4fcf0370e13352c837b1f78b977c2038",
+        "url": "https://api.github.com/repos/craffael/hunter/actions/jobs/25682226403",
+        "html_url": "https://github.com/craffael/hunter/actions/runs/9329603522/job/25682226403",
+        "status": "completed",
+        "conclusion": "success",
+        "created_at": "2024-06-01T10:29:57Z",
+        "started_at": "2024-06-01T10:31:40Z",
+        "completed_at": "2024-06-01T10:32:48Z",
+        "name": "ceres-solver gcc-9-cxx17-fpic ubuntu-20.04",
+        "steps": [
+            {
+                "name": "Set up job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 1,
+                "started_at": "2024-06-01T10:31:39Z",
+                "completed_at": "2024-06-01T10:31:40Z"
+            },
+            {
+                "name": "Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 2,
+                "started_at": "2024-06-01T10:31:40Z",
+                "completed_at": "2024-06-01T10:31:42Z"
+            },
+            {
+                "name": "Set up Python",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 3,
+                "started_at": "2024-06-01T10:31:42Z",
+                "completed_at": "2024-06-01T10:31:42Z"
+            },
+            {
+                "name": "Set up Python environment variable (Unix)",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 4,
+                "started_at": "2024-06-01T10:31:42Z",
+                "completed_at": "2024-06-01T10:31:42Z"
+            },
+            {
+                "name": "Set up Python environment variable (Windows)",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 5,
+                "started_at": "2024-06-01T10:31:42Z",
+                "completed_at": "2024-06-01T10:31:42Z"
+            },
+            {
+                "name": "Build hunter_tests Unix",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 6,
+                "started_at": "2024-06-01T10:31:42Z",
+                "completed_at": "2024-06-01T10:31:42Z"
+            },
+            {
+                "name": "Build on Unix",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 7,
+                "started_at": "2024-06-01T10:31:42Z",
+                "completed_at": "2024-06-01T10:32:46Z"
+            },
+            {
+                "name": "Build on Windows",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 8,
+                "started_at": "2024-06-01T10:32:48Z",
+                "completed_at": "2024-06-01T10:32:48Z"
+            },
+            {
+                "name": "Post Set up Python",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 15,
+                "started_at": "2024-06-01T10:32:48Z",
+                "completed_at": "2024-06-01T10:32:48Z"
+            },
+            {
+                "name": "Post Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 16,
+                "started_at": "2024-06-01T10:32:48Z",
+                "completed_at": "2024-06-01T10:32:48Z"
+            },
+            {
+                "name": "Complete job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 17,
+                "started_at": "2024-06-01T10:32:46Z",
+                "completed_at": "2024-06-01T10:32:46Z"
+            }
+        ],
+        "check_run_url": "https://api.github.com/repos/craffael/hunter/check-runs/25682226403",
+        "labels": [
+            "ubuntu-20.04"
+        ],
+        "runner_id": 3,
+        "runner_name": "GitHub Actions 3",
+        "runner_group_id": 2,
+        "runner_group_name": "GitHub Actions"
+    },
+    {
+        "id": 25682226928,
+        "run_id": 9329603522,
+        "workflow_name": "CI",
+        "head_branch": "msvc_1940",
+        "run_url": "https://api.github.com/repos/craffael/hunter/actions/runs/9329603522",
+        "run_attempt": 1,
+        "node_id": "CR_kwDOCVzNwc8AAAAF-seu8A",
+        "head_sha": "b79fdccf4fcf0370e13352c837b1f78b977c2038",
+        "url": "https://api.github.com/repos/craffael/hunter/actions/jobs/25682226928",
+        "html_url": "https://github.com/craffael/hunter/actions/runs/9329603522/job/25682226928",
+        "status": "completed",
+        "conclusion": "failure",
+        "created_at": "2024-06-01T10:29:59Z",
+        "started_at": "2024-06-01T10:31:29Z",
+        "completed_at": "2024-06-01T10:32:58Z",
+        "name": "ceres-solver ios-nocodesign-15-5-arm64-cxx17 macos-12",
+        "steps": [
+            {
+                "name": "Set up job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 1,
+                "started_at": "2024-06-01T10:31:29Z",
+                "completed_at": "2024-06-01T10:31:30Z"
+            },
+            {
+                "name": "Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 2,
+                "started_at": "2024-06-01T10:31:30Z",
+                "completed_at": "2024-06-01T10:31:37Z"
+            },
+            {
+                "name": "Set up Python",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 3,
+                "started_at": "2024-06-01T10:31:38Z",
+                "completed_at": "2024-06-01T10:31:38Z"
+            },
+            {
+                "name": "Set up Python environment variable (Unix)",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 4,
+                "started_at": "2024-06-01T10:31:38Z",
+                "completed_at": "2024-06-01T10:31:38Z"
+            },
+            {
+                "name": "Set up Python environment variable (Windows)",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 5,
+                "started_at": "2024-06-01T10:31:38Z",
+                "completed_at": "2024-06-01T10:31:38Z"
+            },
+            {
+                "name": "Build hunter_tests Unix",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 6,
+                "started_at": "2024-06-01T10:31:38Z",
+                "completed_at": "2024-06-01T10:31:38Z"
+            },
+            {
+                "name": "Build on Unix",
+                "status": "completed",
+                "conclusion": "failure",
+                "number": 7,
+                "started_at": "2024-06-01T10:31:38Z",
+                "completed_at": "2024-06-01T10:32:54Z"
+            },
+            {
+                "name": "Build on Windows",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 8,
+                "started_at": "2024-06-01T10:32:54Z",
+                "completed_at": "2024-06-01T10:32:54Z"
+            },
+            {
+                "name": "Post Set up Python",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 15,
+                "started_at": "2024-06-01T10:32:54Z",
+                "completed_at": "2024-06-01T10:32:54Z"
+            },
+            {
+                "name": "Post Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 16,
+                "started_at": "2024-06-01T10:32:54Z",
+                "completed_at": "2024-06-01T10:32:54Z"
+            },
+            {
+                "name": "Complete job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 17,
+                "started_at": "2024-06-01T10:32:54Z",
+                "completed_at": "2024-06-01T10:32:55Z"
+            }
+        ],
+        "check_run_url": "https://api.github.com/repos/craffael/hunter/check-runs/25682226928",
+        "labels": [
+            "macos-12"
+        ],
+        "runner_id": 4,
+        "runner_name": "GitHub Actions 4",
+        "runner_group_id": 2,
+        "runner_group_name": "GitHub Actions"
+    },
+    {
+        "id": 25682226841,
+        "run_id": 9329603522,
+        "workflow_name": "CI",
+        "head_branch": "msvc_1940",
+        "run_url": "https://api.github.com/repos/craffael/hunter/actions/runs/9329603522",
+        "run_attempt": 1,
+        "node_id": "CR_kwDOCVzNwc8AAAAF-seumQ",
+        "head_sha": "b79fdccf4fcf0370e13352c837b1f78b977c2038",
+        "url": "https://api.github.com/repos/craffael/hunter/actions/jobs/25682226841",
+        "html_url": "https://github.com/craffael/hunter/actions/runs/9329603522/job/25682226841",
+        "status": "completed",
+        "conclusion": "failure",
+        "created_at": "2024-06-01T10:29:59Z",
+        "started_at": "2024-06-01T10:32:04Z",
+        "completed_at": "2024-06-01T10:36:04Z",
+        "name": "ceres-solver osx-12-3-arch-universal2-cxx17 macos-12",
+        "steps": [
+            {
+                "name": "Set up job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 1,
+                "started_at": "2024-06-01T10:32:04Z",
+                "completed_at": "2024-06-01T10:32:05Z"
+            },
+            {
+                "name": "Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 2,
+                "started_at": "2024-06-01T10:32:05Z",
+                "completed_at": "2024-06-01T10:32:10Z"
+            },
+            {
+                "name": "Set up Python",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 3,
+                "started_at": "2024-06-01T10:32:10Z",
+                "completed_at": "2024-06-01T10:32:10Z"
+            },
+            {
+                "name": "Set up Python environment variable (Unix)",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 4,
+                "started_at": "2024-06-01T10:32:11Z",
+                "completed_at": "2024-06-01T10:32:11Z"
+            },
+            {
+                "name": "Set up Python environment variable (Windows)",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 5,
+                "started_at": "2024-06-01T10:32:11Z",
+                "completed_at": "2024-06-01T10:32:11Z"
+            },
+            {
+                "name": "Build hunter_tests Unix",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 6,
+                "started_at": "2024-06-01T10:32:11Z",
+                "completed_at": "2024-06-01T10:32:11Z"
+            },
+            {
+                "name": "Build on Unix",
+                "status": "completed",
+                "conclusion": "failure",
+                "number": 7,
+                "started_at": "2024-06-01T10:32:11Z",
+                "completed_at": "2024-06-01T10:36:02Z"
+            },
+            {
+                "name": "Build on Windows",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 8,
+                "started_at": "2024-06-01T10:36:03Z",
+                "completed_at": "2024-06-01T10:36:03Z"
+            },
+            {
+                "name": "Post Set up Python",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 15,
+                "started_at": "2024-06-01T10:36:03Z",
+                "completed_at": "2024-06-01T10:36:03Z"
+            },
+            {
+                "name": "Post Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 16,
+                "started_at": "2024-06-01T10:36:03Z",
+                "completed_at": "2024-06-01T10:36:03Z"
+            },
+            {
+                "name": "Complete job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 17,
+                "started_at": "2024-06-01T10:36:03Z",
+                "completed_at": "2024-06-01T10:36:03Z"
+            }
+        ],
+        "check_run_url": "https://api.github.com/repos/craffael/hunter/check-runs/25682226841",
+        "labels": [
+            "macos-12"
+        ],
+        "runner_id": 19,
+        "runner_name": "GitHub Actions 19",
+        "runner_group_id": 2,
+        "runner_group_name": "GitHub Actions"
+    },
+    {
+        "id": 25682226629,
+        "run_id": 9329603522,
+        "workflow_name": "CI",
+        "head_branch": "msvc_1940",
+        "run_url": "https://api.github.com/repos/craffael/hunter/actions/runs/9329603522",
+        "run_attempt": 1,
+        "node_id": "CR_kwDOCVzNwc8AAAAF-setxQ",
+        "head_sha": "b79fdccf4fcf0370e13352c837b1f78b977c2038",
+        "url": "https://api.github.com/repos/craffael/hunter/actions/jobs/25682226629",
+        "html_url": "https://github.com/craffael/hunter/actions/runs/9329603522/job/25682226629",
+        "status": "completed",
+        "conclusion": "success",
+        "created_at": "2024-06-01T10:29:58Z",
+        "started_at": "2024-06-01T10:32:15Z",
+        "completed_at": "2024-06-01T10:33:44Z",
+        "name": "ceres-solver sanitize-address-cxx17 ubuntu-20.04",
+        "steps": [
+            {
+                "name": "Set up job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 1,
+                "started_at": "2024-06-01T10:32:15Z",
+                "completed_at": "2024-06-01T10:32:16Z"
+            },
+            {
+                "name": "Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 2,
+                "started_at": "2024-06-01T10:32:16Z",
+                "completed_at": "2024-06-01T10:32:18Z"
+            },
+            {
+                "name": "Set up Python",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 3,
+                "started_at": "2024-06-01T10:32:18Z",
+                "completed_at": "2024-06-01T10:32:18Z"
+            },
+            {
+                "name": "Set up Python environment variable (Unix)",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 4,
+                "started_at": "2024-06-01T10:32:19Z",
+                "completed_at": "2024-06-01T10:32:19Z"
+            },
+            {
+                "name": "Set up Python environment variable (Windows)",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 5,
+                "started_at": "2024-06-01T10:32:19Z",
+                "completed_at": "2024-06-01T10:32:19Z"
+            },
+            {
+                "name": "Build hunter_tests Unix",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 6,
+                "started_at": "2024-06-01T10:32:19Z",
+                "completed_at": "2024-06-01T10:32:19Z"
+            },
+            {
+                "name": "Build on Unix",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 7,
+                "started_at": "2024-06-01T10:32:19Z",
+                "completed_at": "2024-06-01T10:33:42Z"
+            },
+            {
+                "name": "Build on Windows",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 8,
+                "started_at": "2024-06-01T10:33:44Z",
+                "completed_at": "2024-06-01T10:33:44Z"
+            },
+            {
+                "name": "Post Set up Python",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 15,
+                "started_at": "2024-06-01T10:33:44Z",
+                "completed_at": "2024-06-01T10:33:44Z"
+            },
+            {
+                "name": "Post Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 16,
+                "started_at": "2024-06-01T10:33:44Z",
+                "completed_at": "2024-06-01T10:33:44Z"
+            },
+            {
+                "name": "Complete job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 17,
+                "started_at": "2024-06-01T10:33:43Z",
+                "completed_at": "2024-06-01T10:33:43Z"
+            }
+        ],
+        "check_run_url": "https://api.github.com/repos/craffael/hunter/check-runs/25682226629",
+        "labels": [
+            "ubuntu-20.04"
+        ],
+        "runner_id": 21,
+        "runner_name": "GitHub Actions 1",
+        "runner_group_id": 2,
+        "runner_group_name": "GitHub Actions"
+    },
+    {
+        "id": 25682226710,
+        "run_id": 9329603522,
+        "workflow_name": "CI",
+        "head_branch": "msvc_1940",
+        "run_url": "https://api.github.com/repos/craffael/hunter/actions/runs/9329603522",
+        "run_attempt": 1,
+        "node_id": "CR_kwDOCVzNwc8AAAAF-seuFg",
+        "head_sha": "b79fdccf4fcf0370e13352c837b1f78b977c2038",
+        "url": "https://api.github.com/repos/craffael/hunter/actions/jobs/25682226710",
+        "html_url": "https://github.com/craffael/hunter/actions/runs/9329603522/job/25682226710",
+        "status": "completed",
+        "conclusion": "success",
+        "created_at": "2024-06-01T10:29:58Z",
+        "started_at": "2024-06-01T10:32:44Z",
+        "completed_at": "2024-06-01T10:33:52Z",
+        "name": "ceres-solver sanitize-leak-cxx17 ubuntu-20.04",
+        "steps": [
+            {
+                "name": "Set up job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 1,
+                "started_at": "2024-06-01T10:32:43Z",
+                "completed_at": "2024-06-01T10:32:44Z"
+            },
+            {
+                "name": "Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 2,
+                "started_at": "2024-06-01T10:32:44Z",
+                "completed_at": "2024-06-01T10:32:46Z"
+            },
+            {
+                "name": "Set up Python",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 3,
+                "started_at": "2024-06-01T10:32:46Z",
+                "completed_at": "2024-06-01T10:32:46Z"
+            },
+            {
+                "name": "Set up Python environment variable (Unix)",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 4,
+                "started_at": "2024-06-01T10:32:46Z",
+                "completed_at": "2024-06-01T10:32:46Z"
+            },
+            {
+                "name": "Set up Python environment variable (Windows)",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 5,
+                "started_at": "2024-06-01T10:32:46Z",
+                "completed_at": "2024-06-01T10:32:46Z"
+            },
+            {
+                "name": "Build hunter_tests Unix",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 6,
+                "started_at": "2024-06-01T10:32:46Z",
+                "completed_at": "2024-06-01T10:32:46Z"
+            },
+            {
+                "name": "Build on Unix",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 7,
+                "started_at": "2024-06-01T10:32:46Z",
+                "completed_at": "2024-06-01T10:33:51Z"
+            },
+            {
+                "name": "Build on Windows",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 8,
+                "started_at": "2024-06-01T10:33:51Z",
+                "completed_at": "2024-06-01T10:33:51Z"
+            },
+            {
+                "name": "Post Set up Python",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 15,
+                "started_at": "2024-06-01T10:33:51Z",
+                "completed_at": "2024-06-01T10:33:51Z"
+            },
+            {
+                "name": "Post Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 16,
+                "started_at": "2024-06-01T10:33:51Z",
+                "completed_at": "2024-06-01T10:33:51Z"
+            },
+            {
+                "name": "Complete job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 17,
+                "started_at": "2024-06-01T10:33:51Z",
+                "completed_at": "2024-06-01T10:33:51Z"
+            }
+        ],
+        "check_run_url": "https://api.github.com/repos/craffael/hunter/check-runs/25682226710",
+        "labels": [
+            "ubuntu-20.04"
+        ],
+        "runner_id": 10,
+        "runner_name": "GitHub Actions 10",
+        "runner_group_id": 2,
+        "runner_group_name": "GitHub Actions"
+    },
+    {
+        "id": 25682226781,
+        "run_id": 9329603522,
+        "workflow_name": "CI",
+        "head_branch": "msvc_1940",
+        "run_url": "https://api.github.com/repos/craffael/hunter/actions/runs/9329603522",
+        "run_attempt": 1,
+        "node_id": "CR_kwDOCVzNwc8AAAAF-seuXQ",
+        "head_sha": "b79fdccf4fcf0370e13352c837b1f78b977c2038",
+        "url": "https://api.github.com/repos/craffael/hunter/actions/jobs/25682226781",
+        "html_url": "https://github.com/craffael/hunter/actions/runs/9329603522/job/25682226781",
+        "status": "completed",
+        "conclusion": "success",
+        "created_at": "2024-06-01T10:29:58Z",
+        "started_at": "2024-06-01T10:32:50Z",
+        "completed_at": "2024-06-01T10:34:05Z",
+        "name": "ceres-solver sanitize-thread-cxx17 ubuntu-20.04",
+        "steps": [
+            {
+                "name": "Set up job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 1,
+                "started_at": "2024-06-01T10:32:49Z",
+                "completed_at": "2024-06-01T10:32:50Z"
+            },
+            {
+                "name": "Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 2,
+                "started_at": "2024-06-01T10:32:50Z",
+                "completed_at": "2024-06-01T10:32:52Z"
+            },
+            {
+                "name": "Set up Python",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 3,
+                "started_at": "2024-06-01T10:32:52Z",
+                "completed_at": "2024-06-01T10:32:52Z"
+            },
+            {
+                "name": "Set up Python environment variable (Unix)",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 4,
+                "started_at": "2024-06-01T10:32:53Z",
+                "completed_at": "2024-06-01T10:32:53Z"
+            },
+            {
+                "name": "Set up Python environment variable (Windows)",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 5,
+                "started_at": "2024-06-01T10:32:53Z",
+                "completed_at": "2024-06-01T10:32:53Z"
+            },
+            {
+                "name": "Build hunter_tests Unix",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 6,
+                "started_at": "2024-06-01T10:32:53Z",
+                "completed_at": "2024-06-01T10:32:53Z"
+            },
+            {
+                "name": "Build on Unix",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 7,
+                "started_at": "2024-06-01T10:32:53Z",
+                "completed_at": "2024-06-01T10:34:04Z"
+            },
+            {
+                "name": "Build on Windows",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 8,
+                "started_at": "2024-06-01T10:34:04Z",
+                "completed_at": "2024-06-01T10:34:04Z"
+            },
+            {
+                "name": "Post Set up Python",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 15,
+                "started_at": "2024-06-01T10:34:04Z",
+                "completed_at": "2024-06-01T10:34:04Z"
+            },
+            {
+                "name": "Post Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 16,
+                "started_at": "2024-06-01T10:34:05Z",
+                "completed_at": "2024-06-01T10:34:05Z"
+            },
+            {
+                "name": "Complete job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 17,
+                "started_at": "2024-06-01T10:34:04Z",
+                "completed_at": "2024-06-01T10:34:04Z"
+            }
+        ],
+        "check_run_url": "https://api.github.com/repos/craffael/hunter/check-runs/25682226781",
+        "labels": [
+            "ubuntu-20.04"
+        ],
+        "runner_id": 15,
+        "runner_name": "GitHub Actions 15",
+        "runner_group_id": 2,
+        "runner_group_name": "GitHub Actions"
+    }
+]

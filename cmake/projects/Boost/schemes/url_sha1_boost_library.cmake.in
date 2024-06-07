@@ -86,6 +86,12 @@ elseif("@CMAKE_COMPILER_IS_GNUCXX@")
 elseif(compiler_is_clang)
   set(toolset_name "clang")
   set(toolset_version "")
+  
+  # Added by craffael to support clang toolset in MSVC:
+  if(WIN32)
+    set(toolset_name "clang-win")
+    set(use_cmake_archiver FALSE) # somehow it doesn't work if we specify the archiver explicitly.
+  endif()
 elseif("@MSVC@")
   set(toolset_name "msvc")
   set(toolset_version "")

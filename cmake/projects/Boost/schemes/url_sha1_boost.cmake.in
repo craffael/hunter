@@ -49,6 +49,9 @@ foreach(x ${boost_libs})
   list(APPEND boost_list "--without-${x}")
 endforeach()
 
+# Added by craffael 23.08.2024 to fix https://github.com/bfgroup/b2/issues/408
+set(without_predef )
+
 if(CMAKE_HOST_WIN32)
   set(install_cmd "b2")
   if("@MSVC@")
@@ -66,6 +69,7 @@ if(CMAKE_HOST_WIN32)
     set(patch_cmd "@CMAKE_COMMAND@" -E echo "Dummy patch command")
     set(bootstrap_cmd "bootstrap.bat")
   endif()
+  set(without_predef "--without-predef")
 else()
   set(install_cmd "./b2")
   set(bootstrap_cmd "./bootstrap.sh")
@@ -149,6 +153,7 @@ ExternalProject_Add(
     "--prefix=@HUNTER_PACKAGE_INSTALL_PREFIX@"
     --ignore-site-config # Ignore Gentoo specific optimization "none" in site config that only the patched bjam of Gentoo can understand.
     ${pass_boost_no_cmake_config}
+    ${without_predef}
     COMMAND # Copy license files
     "@CMAKE_COMMAND@"
     "-C@HUNTER_ARGS_FILE@" # for 'HUNTER_INSTALL_LICENSE_FILES'

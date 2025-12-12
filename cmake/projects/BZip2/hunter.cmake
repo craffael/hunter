@@ -60,9 +60,9 @@ hunter_add_version(
     VERSION
     "1.0.8-p0"
     URL
-    "https://github.com/cpp-pm/bzip2/archive/v1.0.8-p0.tar.gz"
+    "https://github.com/cpp-pm/bzip2/archive/refs/heads/craffael-update-min-cmake.tar.gz"
     SHA1
-    9125bd674fbe7c8169c8ea6a2a15a414a7dc2f86
+    214da4bef640b4324a88f1e12c477ca198dfae6e
 )
 
 hunter_cmake_args(

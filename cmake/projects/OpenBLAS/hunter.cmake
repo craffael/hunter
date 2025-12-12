@@ -87,6 +87,17 @@ hunter_add_version(
     b052d196ad694b29302e074b3eb8cc66745f6e2f
 )
 
+hunter_add_version(
+    PACKAGE_NAME
+    OpenBLAS
+    VERSION
+    0.3.27
+    URL
+    "https://github.com/xianyi/OpenBLAS/archive/v0.3.27.tar.gz"
+    SHA1
+    a2fe037b96c3d7aae64d1a31b3362cfd8e89b8c6
+)
+
 hunter_configuration_types(OpenBLAS CONFIGURATION_TYPES Release)
 if(HUNTER_OpenBLAS_VERSION VERSION_LESS 0.3.1)
   hunter_pick_scheme(DEFAULT OpenBLAS)
@@ -104,12 +115,21 @@ else()
     # https://github.com/xianyi/OpenBLAS/releases/tag/v0.3.21
     set(_openblas_BUILD_WITHOUT_LAPACK "OFF")
   endif()
+  # silence warnings on OpenBLAS build
+  if(CMAKE_C_COMPILER_ID STREQUAL "Clang" OR CMAKE_C_COMPILER_ID STREQUAL "GNU")
+    set(_openblas_cflags "CMAKE_C_FLAGS=-w")
+  elseif(MSVC)
+    set(_openblas_cflags "CMAKE_C_FLAGS=/W0")
+  else()
+    set(_openblas_cflags)
+  endif()
   hunter_cmake_args(
     OpenBLAS
     CMAKE_ARGS
     BUILD_TESTING=OFF
     NOFORTRAN=1
     BUILD_WITHOUT_LAPACK=${_openblas_BUILD_WITHOUT_LAPACK}
+    ${_openblas_cflags}
   )
   hunter_pick_scheme(DEFAULT url_sha1_cmake)
   set(_openblas_unrelocatable_text_files "")

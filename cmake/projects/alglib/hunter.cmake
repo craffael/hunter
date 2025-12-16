@@ -23,7 +23,7 @@ hunter_add_version(
     PACKAGE_NAME
     alglib
     VERSION
-    3.18.0-p0
+    3.18.0-p1
     URL
     "https://github.com/craffael/alglib/archive/v3.18.0-p1.tar.gz"
     SHA1

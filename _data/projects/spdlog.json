@@ -1,0 +1,1614 @@
+[
+    {
+        "id": 58223502596,
+        "run_id": 20275658441,
+        "workflow_name": "CI",
+        "head_branch": "update_spdlog",
+        "run_url": "https://api.github.com/repos/craffael/hunter/actions/runs/20275658441",
+        "run_attempt": 1,
+        "node_id": "CR_kwDOCVzNwc8AAAANjmQlBA",
+        "head_sha": "7999e2449d6deb4527dc64091109111226b71647",
+        "url": "https://api.github.com/repos/craffael/hunter/actions/jobs/58223502596",
+        "html_url": "https://github.com/craffael/hunter/actions/runs/20275658441/job/58223502596",
+        "status": "completed",
+        "conclusion": "failure",
+        "created_at": "2025-12-16T16:43:51Z",
+        "started_at": "2025-12-16T16:43:55Z",
+        "completed_at": "2025-12-16T16:45:56Z",
+        "name": "spdlog android-ndk-api-35-arm64-v8a-libcxx14 ubuntu-24.04",
+        "steps": [
+            {
+                "name": "Set up job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 1,
+                "started_at": "2025-12-16T16:43:56Z",
+                "completed_at": "2025-12-16T16:43:58Z"
+            },
+            {
+                "name": "Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 2,
+                "started_at": "2025-12-16T16:43:58Z",
+                "completed_at": "2025-12-16T16:44:02Z"
+            },
+            {
+                "name": "Download all workflow run artifacts",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 3,
+                "started_at": "2025-12-16T16:44:02Z",
+                "completed_at": "2025-12-16T16:44:03Z"
+            },
+            {
+                "name": "Set up Python",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 4,
+                "started_at": "2025-12-16T16:44:03Z",
+                "completed_at": "2025-12-16T16:44:03Z"
+            },
+            {
+                "name": "Set up Python environment variable (Unix)",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 5,
+                "started_at": "2025-12-16T16:44:03Z",
+                "completed_at": "2025-12-16T16:44:03Z"
+            },
+            {
+                "name": "Set up Python environment variable (Windows)",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 6,
+                "started_at": "2025-12-16T16:44:03Z",
+                "completed_at": "2025-12-16T16:44:03Z"
+            },
+            {
+                "name": "Install requests python module for upload script",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 7,
+                "started_at": "2025-12-16T16:44:03Z",
+                "completed_at": "2025-12-16T16:44:06Z"
+            },
+            {
+                "name": "Build on Unix",
+                "status": "completed",
+                "conclusion": "failure",
+                "number": 8,
+                "started_at": "2025-12-16T16:44:06Z",
+                "completed_at": "2025-12-16T16:45:53Z"
+            },
+            {
+                "name": "Build on Windows",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 9,
+                "started_at": "2025-12-16T16:45:53Z",
+                "completed_at": "2025-12-16T16:45:53Z"
+            },
+            {
+                "name": "Post Set up Python",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 17,
+                "started_at": "2025-12-16T16:45:53Z",
+                "completed_at": "2025-12-16T16:45:53Z"
+            },
+            {
+                "name": "Post Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 18,
+                "started_at": "2025-12-16T16:45:53Z",
+                "completed_at": "2025-12-16T16:45:53Z"
+            },
+            {
+                "name": "Complete job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 19,
+                "started_at": "2025-12-16T16:45:53Z",
+                "completed_at": "2025-12-16T16:45:53Z"
+            }
+        ],
+        "check_run_url": "https://api.github.com/repos/craffael/hunter/check-runs/58223502596",
+        "labels": [
+            "ubuntu-24.04"
+        ],
+        "runner_id": 1000000151,
+        "runner_name": "GitHub Actions 1000000151",
+        "runner_group_id": 0,
+        "runner_group_name": "GitHub Actions"
+    },
+    {
+        "id": 58223502567,
+        "run_id": 20275658441,
+        "workflow_name": "CI",
+        "head_branch": "update_spdlog",
+        "run_url": "https://api.github.com/repos/craffael/hunter/actions/runs/20275658441",
+        "run_attempt": 1,
+        "node_id": "CR_kwDOCVzNwc8AAAANjmQk5w",
+        "head_sha": "7999e2449d6deb4527dc64091109111226b71647",
+        "url": "https://api.github.com/repos/craffael/hunter/actions/jobs/58223502567",
+        "html_url": "https://github.com/craffael/hunter/actions/runs/20275658441/job/58223502567",
+        "status": "completed",
+        "conclusion": "success",
+        "created_at": "2025-12-16T16:43:51Z",
+        "started_at": "2025-12-16T16:43:54Z",
+        "completed_at": "2025-12-16T16:44:31Z",
+        "name": "spdlog clang-cxx17 ubuntu-24.04",
+        "steps": [
+            {
+                "name": "Set up job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 1,
+                "started_at": "2025-12-16T16:43:55Z",
+                "completed_at": "2025-12-16T16:43:56Z"
+            },
+            {
+                "name": "Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 2,
+                "started_at": "2025-12-16T16:43:56Z",
+                "completed_at": "2025-12-16T16:43:58Z"
+            },
+            {
+                "name": "Download all workflow run artifacts",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 3,
+                "started_at": "2025-12-16T16:43:58Z",
+                "completed_at": "2025-12-16T16:43:58Z"
+            },
+            {
+                "name": "Set up Python",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 4,
+                "started_at": "2025-12-16T16:43:58Z",
+                "completed_at": "2025-12-16T16:43:59Z"
+            },
+            {
+                "name": "Set up Python environment variable (Unix)",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 5,
+                "started_at": "2025-12-16T16:43:59Z",
+                "completed_at": "2025-12-16T16:43:59Z"
+            },
+            {
+                "name": "Set up Python environment variable (Windows)",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 6,
+                "started_at": "2025-12-16T16:43:59Z",
+                "completed_at": "2025-12-16T16:43:59Z"
+            },
+            {
+                "name": "Install requests python module for upload script",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 7,
+                "started_at": "2025-12-16T16:43:59Z",
+                "completed_at": "2025-12-16T16:44:02Z"
+            },
+            {
+                "name": "Build on Unix",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 8,
+                "started_at": "2025-12-16T16:44:02Z",
+                "completed_at": "2025-12-16T16:44:29Z"
+            },
+            {
+                "name": "Build on Windows",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 9,
+                "started_at": "2025-12-16T16:44:29Z",
+                "completed_at": "2025-12-16T16:44:29Z"
+            },
+            {
+                "name": "Post Set up Python",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 17,
+                "started_at": "2025-12-16T16:44:29Z",
+                "completed_at": "2025-12-16T16:44:29Z"
+            },
+            {
+                "name": "Post Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 18,
+                "started_at": "2025-12-16T16:44:29Z",
+                "completed_at": "2025-12-16T16:44:29Z"
+            },
+            {
+                "name": "Complete job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 19,
+                "started_at": "2025-12-16T16:44:29Z",
+                "completed_at": "2025-12-16T16:44:29Z"
+            }
+        ],
+        "check_run_url": "https://api.github.com/repos/craffael/hunter/check-runs/58223502567",
+        "labels": [
+            "ubuntu-24.04"
+        ],
+        "runner_id": 1000000150,
+        "runner_name": "GitHub Actions 1000000150",
+        "runner_group_id": 0,
+        "runner_group_name": "GitHub Actions"
+    },
+    {
+        "id": 58223502569,
+        "run_id": 20275658441,
+        "workflow_name": "CI",
+        "head_branch": "update_spdlog",
+        "run_url": "https://api.github.com/repos/craffael/hunter/actions/runs/20275658441",
+        "run_attempt": 1,
+        "node_id": "CR_kwDOCVzNwc8AAAANjmQk6Q",
+        "head_sha": "7999e2449d6deb4527dc64091109111226b71647",
+        "url": "https://api.github.com/repos/craffael/hunter/actions/jobs/58223502569",
+        "html_url": "https://github.com/craffael/hunter/actions/runs/20275658441/job/58223502569",
+        "status": "completed",
+        "conclusion": "success",
+        "created_at": "2025-12-16T16:43:51Z",
+        "started_at": "2025-12-16T16:43:54Z",
+        "completed_at": "2025-12-16T16:44:31Z",
+        "name": "spdlog gcc-12-cxx17 ubuntu-24.04",
+        "steps": [
+            {
+                "name": "Set up job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 1,
+                "started_at": "2025-12-16T16:43:55Z",
+                "completed_at": "2025-12-16T16:43:56Z"
+            },
+            {
+                "name": "Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 2,
+                "started_at": "2025-12-16T16:43:56Z",
+                "completed_at": "2025-12-16T16:43:58Z"
+            },
+            {
+                "name": "Download all workflow run artifacts",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 3,
+                "started_at": "2025-12-16T16:43:58Z",
+                "completed_at": "2025-12-16T16:43:59Z"
+            },
+            {
+                "name": "Set up Python",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 4,
+                "started_at": "2025-12-16T16:43:59Z",
+                "completed_at": "2025-12-16T16:43:59Z"
+            },
+            {
+                "name": "Set up Python environment variable (Unix)",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 5,
+                "started_at": "2025-12-16T16:43:59Z",
+                "completed_at": "2025-12-16T16:43:59Z"
+            },
+            {
+                "name": "Set up Python environment variable (Windows)",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 6,
+                "started_at": "2025-12-16T16:43:59Z",
+                "completed_at": "2025-12-16T16:43:59Z"
+            },
+            {
+                "name": "Install requests python module for upload script",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 7,
+                "started_at": "2025-12-16T16:43:59Z",
+                "completed_at": "2025-12-16T16:44:01Z"
+            },
+            {
+                "name": "Build on Unix",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 8,
+                "started_at": "2025-12-16T16:44:01Z",
+                "completed_at": "2025-12-16T16:44:30Z"
+            },
+            {
+                "name": "Build on Windows",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 9,
+                "started_at": "2025-12-16T16:44:30Z",
+                "completed_at": "2025-12-16T16:44:30Z"
+            },
+            {
+                "name": "Post Set up Python",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 17,
+                "started_at": "2025-12-16T16:44:30Z",
+                "completed_at": "2025-12-16T16:44:30Z"
+            },
+            {
+                "name": "Post Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 18,
+                "started_at": "2025-12-16T16:44:30Z",
+                "completed_at": "2025-12-16T16:44:30Z"
+            },
+            {
+                "name": "Complete job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 19,
+                "started_at": "2025-12-16T16:44:30Z",
+                "completed_at": "2025-12-16T16:44:30Z"
+            }
+        ],
+        "check_run_url": "https://api.github.com/repos/craffael/hunter/check-runs/58223502569",
+        "labels": [
+            "ubuntu-24.04"
+        ],
+        "runner_id": 1000000148,
+        "runner_name": "GitHub Actions 1000000148",
+        "runner_group_id": 0,
+        "runner_group_name": "GitHub Actions"
+    },
+    {
+        "id": 58223502573,
+        "run_id": 20275658441,
+        "workflow_name": "CI",
+        "head_branch": "update_spdlog",
+        "run_url": "https://api.github.com/repos/craffael/hunter/actions/runs/20275658441",
+        "run_attempt": 1,
+        "node_id": "CR_kwDOCVzNwc8AAAANjmQk7Q",
+        "head_sha": "7999e2449d6deb4527dc64091109111226b71647",
+        "url": "https://api.github.com/repos/craffael/hunter/actions/jobs/58223502573",
+        "html_url": "https://github.com/craffael/hunter/actions/runs/20275658441/job/58223502573",
+        "status": "completed",
+        "conclusion": "success",
+        "created_at": "2025-12-16T16:43:51Z",
+        "started_at": "2025-12-16T16:44:06Z",
+        "completed_at": "2025-12-16T16:44:43Z",
+        "name": "spdlog gcc-13-cxx17-fpic ubuntu-24.04",
+        "steps": [
+            {
+                "name": "Set up job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 1,
+                "started_at": "2025-12-16T16:44:07Z",
+                "completed_at": "2025-12-16T16:44:09Z"
+            },
+            {
+                "name": "Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 2,
+                "started_at": "2025-12-16T16:44:09Z",
+                "completed_at": "2025-12-16T16:44:12Z"
+            },
+            {
+                "name": "Download all workflow run artifacts",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 3,
+                "started_at": "2025-12-16T16:44:12Z",
+                "completed_at": "2025-12-16T16:44:14Z"
+            },
+            {
+                "name": "Set up Python",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 4,
+                "started_at": "2025-12-16T16:44:14Z",
+                "completed_at": "2025-12-16T16:44:14Z"
+            },
+            {
+                "name": "Set up Python environment variable (Unix)",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 5,
+                "started_at": "2025-12-16T16:44:14Z",
+                "completed_at": "2025-12-16T16:44:14Z"
+            },
+            {
+                "name": "Set up Python environment variable (Windows)",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 6,
+                "started_at": "2025-12-16T16:44:14Z",
+                "completed_at": "2025-12-16T16:44:14Z"
+            },
+            {
+                "name": "Install requests python module for upload script",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 7,
+                "started_at": "2025-12-16T16:44:14Z",
+                "completed_at": "2025-12-16T16:44:17Z"
+            },
+            {
+                "name": "Build on Unix",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 8,
+                "started_at": "2025-12-16T16:44:17Z",
+                "completed_at": "2025-12-16T16:44:40Z"
+            },
+            {
+                "name": "Build on Windows",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 9,
+                "started_at": "2025-12-16T16:44:40Z",
+                "completed_at": "2025-12-16T16:44:40Z"
+            },
+            {
+                "name": "Post Set up Python",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 17,
+                "started_at": "2025-12-16T16:44:40Z",
+                "completed_at": "2025-12-16T16:44:40Z"
+            },
+            {
+                "name": "Post Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 18,
+                "started_at": "2025-12-16T16:44:40Z",
+                "completed_at": "2025-12-16T16:44:40Z"
+            },
+            {
+                "name": "Complete job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 19,
+                "started_at": "2025-12-16T16:44:40Z",
+                "completed_at": "2025-12-16T16:44:40Z"
+            }
+        ],
+        "check_run_url": "https://api.github.com/repos/craffael/hunter/check-runs/58223502573",
+        "labels": [
+            "ubuntu-24.04"
+        ],
+        "runner_id": 1000000152,
+        "runner_name": "GitHub Actions 1000000152",
+        "runner_group_id": 0,
+        "runner_group_name": "GitHub Actions"
+    },
+    {
+        "id": 58223502585,
+        "run_id": 20275658441,
+        "workflow_name": "CI",
+        "head_branch": "update_spdlog",
+        "run_url": "https://api.github.com/repos/craffael/hunter/actions/runs/20275658441",
+        "run_attempt": 1,
+        "node_id": "CR_kwDOCVzNwc8AAAANjmQk-Q",
+        "head_sha": "7999e2449d6deb4527dc64091109111226b71647",
+        "url": "https://api.github.com/repos/craffael/hunter/actions/jobs/58223502585",
+        "html_url": "https://github.com/craffael/hunter/actions/runs/20275658441/job/58223502585",
+        "status": "completed",
+        "conclusion": "success",
+        "created_at": "2025-12-16T16:43:51Z",
+        "started_at": "2025-12-16T16:43:55Z",
+        "completed_at": "2025-12-16T16:44:25Z",
+        "name": "spdlog gcc-14-cxx17-fpic ubuntu-24.04",
+        "steps": [
+            {
+                "name": "Set up job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 1,
+                "started_at": "2025-12-16T16:43:56Z",
+                "completed_at": "2025-12-16T16:43:57Z"
+            },
+            {
+                "name": "Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 2,
+                "started_at": "2025-12-16T16:43:57Z",
+                "completed_at": "2025-12-16T16:44:00Z"
+            },
+            {
+                "name": "Download all workflow run artifacts",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 3,
+                "started_at": "2025-12-16T16:44:00Z",
+                "completed_at": "2025-12-16T16:44:01Z"
+            },
+            {
+                "name": "Set up Python",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 4,
+                "started_at": "2025-12-16T16:44:01Z",
+                "completed_at": "2025-12-16T16:44:01Z"
+            },
+            {
+                "name": "Set up Python environment variable (Unix)",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 5,
+                "started_at": "2025-12-16T16:44:01Z",
+                "completed_at": "2025-12-16T16:44:01Z"
+            },
+            {
+                "name": "Set up Python environment variable (Windows)",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 6,
+                "started_at": "2025-12-16T16:44:01Z",
+                "completed_at": "2025-12-16T16:44:01Z"
+            },
+            {
+                "name": "Install requests python module for upload script",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 7,
+                "started_at": "2025-12-16T16:44:01Z",
+                "completed_at": "2025-12-16T16:44:04Z"
+            },
+            {
+                "name": "Build on Unix",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 8,
+                "started_at": "2025-12-16T16:44:04Z",
+                "completed_at": "2025-12-16T16:44:24Z"
+            },
+            {
+                "name": "Build on Windows",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 9,
+                "started_at": "2025-12-16T16:44:24Z",
+                "completed_at": "2025-12-16T16:44:24Z"
+            },
+            {
+                "name": "Post Set up Python",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 17,
+                "started_at": "2025-12-16T16:44:24Z",
+                "completed_at": "2025-12-16T16:44:24Z"
+            },
+            {
+                "name": "Post Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 18,
+                "started_at": "2025-12-16T16:44:24Z",
+                "completed_at": "2025-12-16T16:44:24Z"
+            },
+            {
+                "name": "Complete job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 19,
+                "started_at": "2025-12-16T16:44:24Z",
+                "completed_at": "2025-12-16T16:44:24Z"
+            }
+        ],
+        "check_run_url": "https://api.github.com/repos/craffael/hunter/check-runs/58223502585",
+        "labels": [
+            "ubuntu-24.04"
+        ],
+        "runner_id": 1000000149,
+        "runner_name": "GitHub Actions 1000000149",
+        "runner_group_id": 0,
+        "runner_group_name": "GitHub Actions"
+    },
+    {
+        "id": 58223502612,
+        "run_id": 20275658441,
+        "workflow_name": "CI",
+        "head_branch": "update_spdlog",
+        "run_url": "https://api.github.com/repos/craffael/hunter/actions/runs/20275658441",
+        "run_attempt": 1,
+        "node_id": "CR_kwDOCVzNwc8AAAANjmQlFA",
+        "head_sha": "7999e2449d6deb4527dc64091109111226b71647",
+        "url": "https://api.github.com/repos/craffael/hunter/actions/jobs/58223502612",
+        "html_url": "https://github.com/craffael/hunter/actions/runs/20275658441/job/58223502612",
+        "status": "completed",
+        "conclusion": "success",
+        "created_at": "2025-12-16T16:43:51Z",
+        "started_at": "2025-12-16T16:43:55Z",
+        "completed_at": "2025-12-16T16:44:27Z",
+        "name": "spdlog ios-nocodesign-17-5-arm64-cxx17 macos-15",
+        "steps": [
+            {
+                "name": "Set up job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 1,
+                "started_at": "2025-12-16T16:43:56Z",
+                "completed_at": "2025-12-16T16:43:58Z"
+            },
+            {
+                "name": "Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 2,
+                "started_at": "2025-12-16T16:43:58Z",
+                "completed_at": "2025-12-16T16:44:04Z"
+            },
+            {
+                "name": "Download all workflow run artifacts",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 3,
+                "started_at": "2025-12-16T16:44:04Z",
+                "completed_at": "2025-12-16T16:44:04Z"
+            },
+            {
+                "name": "Set up Python",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 4,
+                "started_at": "2025-12-16T16:44:04Z",
+                "completed_at": "2025-12-16T16:44:05Z"
+            },
+            {
+                "name": "Set up Python environment variable (Unix)",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 5,
+                "started_at": "2025-12-16T16:44:05Z",
+                "completed_at": "2025-12-16T16:44:05Z"
+            },
+            {
+                "name": "Set up Python environment variable (Windows)",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 6,
+                "started_at": "2025-12-16T16:44:05Z",
+                "completed_at": "2025-12-16T16:44:05Z"
+            },
+            {
+                "name": "Install requests python module for upload script",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 7,
+                "started_at": "2025-12-16T16:44:05Z",
+                "completed_at": "2025-12-16T16:44:07Z"
+            },
+            {
+                "name": "Build on Unix",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 8,
+                "started_at": "2025-12-16T16:44:07Z",
+                "completed_at": "2025-12-16T16:44:24Z"
+            },
+            {
+                "name": "Build on Windows",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 9,
+                "started_at": "2025-12-16T16:44:24Z",
+                "completed_at": "2025-12-16T16:44:24Z"
+            },
+            {
+                "name": "Post Set up Python",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 17,
+                "started_at": "2025-12-16T16:44:24Z",
+                "completed_at": "2025-12-16T16:44:24Z"
+            },
+            {
+                "name": "Post Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 18,
+                "started_at": "2025-12-16T16:44:24Z",
+                "completed_at": "2025-12-16T16:44:24Z"
+            },
+            {
+                "name": "Complete job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 19,
+                "started_at": "2025-12-16T16:44:24Z",
+                "completed_at": "2025-12-16T16:44:25Z"
+            }
+        ],
+        "check_run_url": "https://api.github.com/repos/craffael/hunter/check-runs/58223502612",
+        "labels": [
+            "macos-15"
+        ],
+        "runner_id": 1000000153,
+        "runner_name": "GitHub Actions 1000000153",
+        "runner_group_id": 0,
+        "runner_group_name": "GitHub Actions"
+    },
+    {
+        "id": 58223502606,
+        "run_id": 20275658441,
+        "workflow_name": "CI",
+        "head_branch": "update_spdlog",
+        "run_url": "https://api.github.com/repos/craffael/hunter/actions/runs/20275658441",
+        "run_attempt": 1,
+        "node_id": "CR_kwDOCVzNwc8AAAANjmQlDg",
+        "head_sha": "7999e2449d6deb4527dc64091109111226b71647",
+        "url": "https://api.github.com/repos/craffael/hunter/actions/jobs/58223502606",
+        "html_url": "https://github.com/craffael/hunter/actions/runs/20275658441/job/58223502606",
+        "status": "completed",
+        "conclusion": "success",
+        "created_at": "2025-12-16T16:43:51Z",
+        "started_at": "2025-12-16T16:43:58Z",
+        "completed_at": "2025-12-16T16:46:47Z",
+        "name": "spdlog mingw-cxx17 windows-2022",
+        "steps": [
+            {
+                "name": "Set up job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 1,
+                "started_at": "2025-12-16T16:43:58Z",
+                "completed_at": "2025-12-16T16:44:00Z"
+            },
+            {
+                "name": "Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 2,
+                "started_at": "2025-12-16T16:44:00Z",
+                "completed_at": "2025-12-16T16:44:14Z"
+            },
+            {
+                "name": "Download all workflow run artifacts",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 3,
+                "started_at": "2025-12-16T16:44:14Z",
+                "completed_at": "2025-12-16T16:44:15Z"
+            },
+            {
+                "name": "Set up Python",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 4,
+                "started_at": "2025-12-16T16:44:15Z",
+                "completed_at": "2025-12-16T16:44:15Z"
+            },
+            {
+                "name": "Set up Python environment variable (Unix)",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 5,
+                "started_at": "2025-12-16T16:44:15Z",
+                "completed_at": "2025-12-16T16:44:15Z"
+            },
+            {
+                "name": "Set up Python environment variable (Windows)",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 6,
+                "started_at": "2025-12-16T16:44:15Z",
+                "completed_at": "2025-12-16T16:44:36Z"
+            },
+            {
+                "name": "Install requests python module for upload script",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 7,
+                "started_at": "2025-12-16T16:44:36Z",
+                "completed_at": "2025-12-16T16:44:59Z"
+            },
+            {
+                "name": "Build on Unix",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 8,
+                "started_at": "2025-12-16T16:44:59Z",
+                "completed_at": "2025-12-16T16:44:59Z"
+            },
+            {
+                "name": "Build on Windows",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 9,
+                "started_at": "2025-12-16T16:44:59Z",
+                "completed_at": "2025-12-16T16:46:44Z"
+            },
+            {
+                "name": "Post Set up Python",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 17,
+                "started_at": "2025-12-16T16:46:44Z",
+                "completed_at": "2025-12-16T16:46:44Z"
+            },
+            {
+                "name": "Post Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 18,
+                "started_at": "2025-12-16T16:46:44Z",
+                "completed_at": "2025-12-16T16:46:45Z"
+            },
+            {
+                "name": "Complete job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 19,
+                "started_at": "2025-12-16T16:46:45Z",
+                "completed_at": "2025-12-16T16:46:45Z"
+            }
+        ],
+        "check_run_url": "https://api.github.com/repos/craffael/hunter/check-runs/58223502606",
+        "labels": [
+            "windows-2022"
+        ],
+        "runner_id": 1000000158,
+        "runner_name": "GitHub Actions 1000000158",
+        "runner_group_id": 0,
+        "runner_group_name": "GitHub Actions"
+    },
+    {
+        "id": 58223502655,
+        "run_id": 20275658441,
+        "workflow_name": "CI",
+        "head_branch": "update_spdlog",
+        "run_url": "https://api.github.com/repos/craffael/hunter/actions/runs/20275658441",
+        "run_attempt": 1,
+        "node_id": "CR_kwDOCVzNwc8AAAANjmQlPw",
+        "head_sha": "7999e2449d6deb4527dc64091109111226b71647",
+        "url": "https://api.github.com/repos/craffael/hunter/actions/jobs/58223502655",
+        "html_url": "https://github.com/craffael/hunter/actions/runs/20275658441/job/58223502655",
+        "status": "completed",
+        "conclusion": "success",
+        "created_at": "2025-12-16T16:43:51Z",
+        "started_at": "2025-12-16T16:43:56Z",
+        "completed_at": "2025-12-16T16:45:23Z",
+        "name": "spdlog msys-cxx17 windows-2022",
+        "steps": [
+            {
+                "name": "Set up job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 1,
+                "started_at": "2025-12-16T16:43:57Z",
+                "completed_at": "2025-12-16T16:43:58Z"
+            },
+            {
+                "name": "Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 2,
+                "started_at": "2025-12-16T16:43:58Z",
+                "completed_at": "2025-12-16T16:44:11Z"
+            },
+            {
+                "name": "Download all workflow run artifacts",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 3,
+                "started_at": "2025-12-16T16:44:11Z",
+                "completed_at": "2025-12-16T16:44:12Z"
+            },
+            {
+                "name": "Set up Python",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 4,
+                "started_at": "2025-12-16T16:44:12Z",
+                "completed_at": "2025-12-16T16:44:12Z"
+            },
+            {
+                "name": "Set up Python environment variable (Unix)",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 5,
+                "started_at": "2025-12-16T16:44:12Z",
+                "completed_at": "2025-12-16T16:44:12Z"
+            },
+            {
+                "name": "Set up Python environment variable (Windows)",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 6,
+                "started_at": "2025-12-16T16:44:12Z",
+                "completed_at": "2025-12-16T16:44:17Z"
+            },
+            {
+                "name": "Install requests python module for upload script",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 7,
+                "started_at": "2025-12-16T16:44:17Z",
+                "completed_at": "2025-12-16T16:44:25Z"
+            },
+            {
+                "name": "Build on Unix",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 8,
+                "started_at": "2025-12-16T16:44:25Z",
+                "completed_at": "2025-12-16T16:44:25Z"
+            },
+            {
+                "name": "Build on Windows",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 9,
+                "started_at": "2025-12-16T16:44:25Z",
+                "completed_at": "2025-12-16T16:45:19Z"
+            },
+            {
+                "name": "Post Set up Python",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 17,
+                "started_at": "2025-12-16T16:45:19Z",
+                "completed_at": "2025-12-16T16:45:19Z"
+            },
+            {
+                "name": "Post Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 18,
+                "started_at": "2025-12-16T16:45:19Z",
+                "completed_at": "2025-12-16T16:45:21Z"
+            },
+            {
+                "name": "Complete job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 19,
+                "started_at": "2025-12-16T16:45:21Z",
+                "completed_at": "2025-12-16T16:45:21Z"
+            }
+        ],
+        "check_run_url": "https://api.github.com/repos/craffael/hunter/check-runs/58223502655",
+        "labels": [
+            "windows-2022"
+        ],
+        "runner_id": 1000000156,
+        "runner_name": "GitHub Actions 1000000156",
+        "runner_group_id": 0,
+        "runner_group_name": "GitHub Actions"
+    },
+    {
+        "id": 58223502598,
+        "run_id": 20275658441,
+        "workflow_name": "CI",
+        "head_branch": "update_spdlog",
+        "run_url": "https://api.github.com/repos/craffael/hunter/actions/runs/20275658441",
+        "run_attempt": 1,
+        "node_id": "CR_kwDOCVzNwc8AAAANjmQlBg",
+        "head_sha": "7999e2449d6deb4527dc64091109111226b71647",
+        "url": "https://api.github.com/repos/craffael/hunter/actions/jobs/58223502598",
+        "html_url": "https://github.com/craffael/hunter/actions/runs/20275658441/job/58223502598",
+        "status": "completed",
+        "conclusion": "success",
+        "created_at": "2025-12-16T16:43:51Z",
+        "started_at": "2025-12-16T16:43:58Z",
+        "completed_at": "2025-12-16T16:45:32Z",
+        "name": "spdlog ninja-vs-17-2022-win64-cxx17 windows-2022",
+        "steps": [
+            {
+                "name": "Set up job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 1,
+                "started_at": "2025-12-16T16:44:01Z",
+                "completed_at": "2025-12-16T16:44:04Z"
+            },
+            {
+                "name": "Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 2,
+                "started_at": "2025-12-16T16:44:04Z",
+                "completed_at": "2025-12-16T16:44:17Z"
+            },
+            {
+                "name": "Download all workflow run artifacts",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 3,
+                "started_at": "2025-12-16T16:44:17Z",
+                "completed_at": "2025-12-16T16:44:19Z"
+            },
+            {
+                "name": "Set up Python",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 4,
+                "started_at": "2025-12-16T16:44:19Z",
+                "completed_at": "2025-12-16T16:44:19Z"
+            },
+            {
+                "name": "Set up Python environment variable (Unix)",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 5,
+                "started_at": "2025-12-16T16:44:19Z",
+                "completed_at": "2025-12-16T16:44:19Z"
+            },
+            {
+                "name": "Set up Python environment variable (Windows)",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 6,
+                "started_at": "2025-12-16T16:44:19Z",
+                "completed_at": "2025-12-16T16:44:24Z"
+            },
+            {
+                "name": "Install requests python module for upload script",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 7,
+                "started_at": "2025-12-16T16:44:24Z",
+                "completed_at": "2025-12-16T16:44:32Z"
+            },
+            {
+                "name": "Build on Unix",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 8,
+                "started_at": "2025-12-16T16:44:32Z",
+                "completed_at": "2025-12-16T16:44:32Z"
+            },
+            {
+                "name": "Build on Windows",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 9,
+                "started_at": "2025-12-16T16:44:32Z",
+                "completed_at": "2025-12-16T16:45:29Z"
+            },
+            {
+                "name": "Post Set up Python",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 17,
+                "started_at": "2025-12-16T16:45:29Z",
+                "completed_at": "2025-12-16T16:45:29Z"
+            },
+            {
+                "name": "Post Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 18,
+                "started_at": "2025-12-16T16:45:29Z",
+                "completed_at": "2025-12-16T16:45:31Z"
+            },
+            {
+                "name": "Complete job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 19,
+                "started_at": "2025-12-16T16:45:31Z",
+                "completed_at": "2025-12-16T16:45:31Z"
+            }
+        ],
+        "check_run_url": "https://api.github.com/repos/craffael/hunter/check-runs/58223502598",
+        "labels": [
+            "windows-2022"
+        ],
+        "runner_id": 1000000160,
+        "runner_name": "GitHub Actions 1000000160",
+        "runner_group_id": 0,
+        "runner_group_name": "GitHub Actions"
+    },
+    {
+        "id": 58223502608,
+        "run_id": 20275658441,
+        "workflow_name": "CI",
+        "head_branch": "update_spdlog",
+        "run_url": "https://api.github.com/repos/craffael/hunter/actions/runs/20275658441",
+        "run_attempt": 1,
+        "node_id": "CR_kwDOCVzNwc8AAAANjmQlEA",
+        "head_sha": "7999e2449d6deb4527dc64091109111226b71647",
+        "url": "https://api.github.com/repos/craffael/hunter/actions/jobs/58223502608",
+        "html_url": "https://github.com/craffael/hunter/actions/runs/20275658441/job/58223502608",
+        "status": "completed",
+        "conclusion": "success",
+        "created_at": "2025-12-16T16:43:51Z",
+        "started_at": "2025-12-16T16:43:55Z",
+        "completed_at": "2025-12-16T16:45:20Z",
+        "name": "spdlog nmake-vs-17-2022-win64-cxx17 windows-2022",
+        "steps": [
+            {
+                "name": "Set up job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 1,
+                "started_at": "2025-12-16T16:43:56Z",
+                "completed_at": "2025-12-16T16:43:57Z"
+            },
+            {
+                "name": "Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 2,
+                "started_at": "2025-12-16T16:43:57Z",
+                "completed_at": "2025-12-16T16:44:06Z"
+            },
+            {
+                "name": "Download all workflow run artifacts",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 3,
+                "started_at": "2025-12-16T16:44:06Z",
+                "completed_at": "2025-12-16T16:44:07Z"
+            },
+            {
+                "name": "Set up Python",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 4,
+                "started_at": "2025-12-16T16:44:07Z",
+                "completed_at": "2025-12-16T16:44:07Z"
+            },
+            {
+                "name": "Set up Python environment variable (Unix)",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 5,
+                "started_at": "2025-12-16T16:44:07Z",
+                "completed_at": "2025-12-16T16:44:07Z"
+            },
+            {
+                "name": "Set up Python environment variable (Windows)",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 6,
+                "started_at": "2025-12-16T16:44:07Z",
+                "completed_at": "2025-12-16T16:44:13Z"
+            },
+            {
+                "name": "Install requests python module for upload script",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 7,
+                "started_at": "2025-12-16T16:44:13Z",
+                "completed_at": "2025-12-16T16:44:21Z"
+            },
+            {
+                "name": "Build on Unix",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 8,
+                "started_at": "2025-12-16T16:44:21Z",
+                "completed_at": "2025-12-16T16:44:21Z"
+            },
+            {
+                "name": "Build on Windows",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 9,
+                "started_at": "2025-12-16T16:44:21Z",
+                "completed_at": "2025-12-16T16:45:17Z"
+            },
+            {
+                "name": "Post Set up Python",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 17,
+                "started_at": "2025-12-16T16:45:17Z",
+                "completed_at": "2025-12-16T16:45:17Z"
+            },
+            {
+                "name": "Post Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 18,
+                "started_at": "2025-12-16T16:45:17Z",
+                "completed_at": "2025-12-16T16:45:18Z"
+            },
+            {
+                "name": "Complete job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 19,
+                "started_at": "2025-12-16T16:45:18Z",
+                "completed_at": "2025-12-16T16:45:19Z"
+            }
+        ],
+        "check_run_url": "https://api.github.com/repos/craffael/hunter/check-runs/58223502608",
+        "labels": [
+            "windows-2022"
+        ],
+        "runner_id": 1000000157,
+        "runner_name": "GitHub Actions 1000000157",
+        "runner_group_id": 0,
+        "runner_group_name": "GitHub Actions"
+    },
+    {
+        "id": 58223502627,
+        "run_id": 20275658441,
+        "workflow_name": "CI",
+        "head_branch": "update_spdlog",
+        "run_url": "https://api.github.com/repos/craffael/hunter/actions/runs/20275658441",
+        "run_attempt": 1,
+        "node_id": "CR_kwDOCVzNwc8AAAANjmQlIw",
+        "head_sha": "7999e2449d6deb4527dc64091109111226b71647",
+        "url": "https://api.github.com/repos/craffael/hunter/actions/jobs/58223502627",
+        "html_url": "https://github.com/craffael/hunter/actions/runs/20275658441/job/58223502627",
+        "status": "completed",
+        "conclusion": "success",
+        "created_at": "2025-12-16T16:43:51Z",
+        "started_at": "2025-12-16T16:43:55Z",
+        "completed_at": "2025-12-16T16:44:34Z",
+        "name": "spdlog osx-15-4-arch-universal2-cxx17 macos-15",
+        "steps": [
+            {
+                "name": "Set up job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 1,
+                "started_at": "2025-12-16T16:43:56Z",
+                "completed_at": "2025-12-16T16:43:58Z"
+            },
+            {
+                "name": "Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 2,
+                "started_at": "2025-12-16T16:43:58Z",
+                "completed_at": "2025-12-16T16:44:03Z"
+            },
+            {
+                "name": "Download all workflow run artifacts",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 3,
+                "started_at": "2025-12-16T16:44:03Z",
+                "completed_at": "2025-12-16T16:44:04Z"
+            },
+            {
+                "name": "Set up Python",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 4,
+                "started_at": "2025-12-16T16:44:04Z",
+                "completed_at": "2025-12-16T16:44:04Z"
+            },
+            {
+                "name": "Set up Python environment variable (Unix)",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 5,
+                "started_at": "2025-12-16T16:44:04Z",
+                "completed_at": "2025-12-16T16:44:04Z"
+            },
+            {
+                "name": "Set up Python environment variable (Windows)",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 6,
+                "started_at": "2025-12-16T16:44:04Z",
+                "completed_at": "2025-12-16T16:44:04Z"
+            },
+            {
+                "name": "Install requests python module for upload script",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 7,
+                "started_at": "2025-12-16T16:44:04Z",
+                "completed_at": "2025-12-16T16:44:06Z"
+            },
+            {
+                "name": "Build on Unix",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 8,
+                "started_at": "2025-12-16T16:44:06Z",
+                "completed_at": "2025-12-16T16:44:31Z"
+            },
+            {
+                "name": "Build on Windows",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 9,
+                "started_at": "2025-12-16T16:44:31Z",
+                "completed_at": "2025-12-16T16:44:31Z"
+            },
+            {
+                "name": "Post Set up Python",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 17,
+                "started_at": "2025-12-16T16:44:31Z",
+                "completed_at": "2025-12-16T16:44:31Z"
+            },
+            {
+                "name": "Post Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 18,
+                "started_at": "2025-12-16T16:44:31Z",
+                "completed_at": "2025-12-16T16:44:31Z"
+            },
+            {
+                "name": "Complete job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 19,
+                "started_at": "2025-12-16T16:44:31Z",
+                "completed_at": "2025-12-16T16:44:32Z"
+            }
+        ],
+        "check_run_url": "https://api.github.com/repos/craffael/hunter/check-runs/58223502627",
+        "labels": [
+            "macos-15"
+        ],
+        "runner_id": 1000000154,
+        "runner_name": "GitHub Actions 1000000154",
+        "runner_group_id": 0,
+        "runner_group_name": "GitHub Actions"
+    },
+    {
+        "id": 58223502593,
+        "run_id": 20275658441,
+        "workflow_name": "CI",
+        "head_branch": "update_spdlog",
+        "run_url": "https://api.github.com/repos/craffael/hunter/actions/runs/20275658441",
+        "run_attempt": 1,
+        "node_id": "CR_kwDOCVzNwc8AAAANjmQlAQ",
+        "head_sha": "7999e2449d6deb4527dc64091109111226b71647",
+        "url": "https://api.github.com/repos/craffael/hunter/actions/jobs/58223502593",
+        "html_url": "https://github.com/craffael/hunter/actions/runs/20275658441/job/58223502593",
+        "status": "completed",
+        "conclusion": "success",
+        "created_at": "2025-12-16T16:43:51Z",
+        "started_at": "2025-12-16T16:43:56Z",
+        "completed_at": "2025-12-16T16:45:31Z",
+        "name": "spdlog vs-17-2022-win64-sdk-10-0-22000-0-cxx17 windows-2022",
+        "steps": [
+            {
+                "name": "Set up job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 1,
+                "started_at": "2025-12-16T16:43:57Z",
+                "completed_at": "2025-12-16T16:43:58Z"
+            },
+            {
+                "name": "Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 2,
+                "started_at": "2025-12-16T16:43:58Z",
+                "completed_at": "2025-12-16T16:44:10Z"
+            },
+            {
+                "name": "Download all workflow run artifacts",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 3,
+                "started_at": "2025-12-16T16:44:10Z",
+                "completed_at": "2025-12-16T16:44:11Z"
+            },
+            {
+                "name": "Set up Python",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 4,
+                "started_at": "2025-12-16T16:44:11Z",
+                "completed_at": "2025-12-16T16:44:11Z"
+            },
+            {
+                "name": "Set up Python environment variable (Unix)",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 5,
+                "started_at": "2025-12-16T16:44:11Z",
+                "completed_at": "2025-12-16T16:44:11Z"
+            },
+            {
+                "name": "Set up Python environment variable (Windows)",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 6,
+                "started_at": "2025-12-16T16:44:11Z",
+                "completed_at": "2025-12-16T16:44:18Z"
+            },
+            {
+                "name": "Install requests python module for upload script",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 7,
+                "started_at": "2025-12-16T16:44:18Z",
+                "completed_at": "2025-12-16T16:44:26Z"
+            },
+            {
+                "name": "Build on Unix",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 8,
+                "started_at": "2025-12-16T16:44:26Z",
+                "completed_at": "2025-12-16T16:44:26Z"
+            },
+            {
+                "name": "Build on Windows",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 9,
+                "started_at": "2025-12-16T16:44:26Z",
+                "completed_at": "2025-12-16T16:45:27Z"
+            },
+            {
+                "name": "Post Set up Python",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 17,
+                "started_at": "2025-12-16T16:45:27Z",
+                "completed_at": "2025-12-16T16:45:27Z"
+            },
+            {
+                "name": "Post Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 18,
+                "started_at": "2025-12-16T16:45:27Z",
+                "completed_at": "2025-12-16T16:45:29Z"
+            },
+            {
+                "name": "Complete job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 19,
+                "started_at": "2025-12-16T16:45:29Z",
+                "completed_at": "2025-12-16T16:45:29Z"
+            }
+        ],
+        "check_run_url": "https://api.github.com/repos/craffael/hunter/check-runs/58223502593",
+        "labels": [
+            "windows-2022"
+        ],
+        "runner_id": 1000000155,
+        "runner_name": "GitHub Actions 1000000155",
+        "runner_group_id": 0,
+        "runner_group_name": "GitHub Actions"
+    },
+    {
+        "id": 58223502591,
+        "run_id": 20275658441,
+        "workflow_name": "CI",
+        "head_branch": "update_spdlog",
+        "run_url": "https://api.github.com/repos/craffael/hunter/actions/runs/20275658441",
+        "run_attempt": 1,
+        "node_id": "CR_kwDOCVzNwc8AAAANjmQk_w",
+        "head_sha": "7999e2449d6deb4527dc64091109111226b71647",
+        "url": "https://api.github.com/repos/craffael/hunter/actions/jobs/58223502591",
+        "html_url": "https://github.com/craffael/hunter/actions/runs/20275658441/job/58223502591",
+        "status": "completed",
+        "conclusion": "success",
+        "created_at": "2025-12-16T16:43:51Z",
+        "started_at": "2025-12-16T16:43:57Z",
+        "completed_at": "2025-12-16T16:45:50Z",
+        "name": "spdlog vs-17-2022-win64-store-10-cxx17 windows-2022",
+        "steps": [
+            {
+                "name": "Set up job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 1,
+                "started_at": "2025-12-16T16:43:59Z",
+                "completed_at": "2025-12-16T16:44:01Z"
+            },
+            {
+                "name": "Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 2,
+                "started_at": "2025-12-16T16:44:01Z",
+                "completed_at": "2025-12-16T16:44:11Z"
+            },
+            {
+                "name": "Download all workflow run artifacts",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 3,
+                "started_at": "2025-12-16T16:44:11Z",
+                "completed_at": "2025-12-16T16:44:13Z"
+            },
+            {
+                "name": "Set up Python",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 4,
+                "started_at": "2025-12-16T16:44:13Z",
+                "completed_at": "2025-12-16T16:44:13Z"
+            },
+            {
+                "name": "Set up Python environment variable (Unix)",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 5,
+                "started_at": "2025-12-16T16:44:13Z",
+                "completed_at": "2025-12-16T16:44:13Z"
+            },
+            {
+                "name": "Set up Python environment variable (Windows)",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 6,
+                "started_at": "2025-12-16T16:44:13Z",
+                "completed_at": "2025-12-16T16:44:18Z"
+            },
+            {
+                "name": "Install requests python module for upload script",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 7,
+                "started_at": "2025-12-16T16:44:18Z",
+                "completed_at": "2025-12-16T16:44:30Z"
+            },
+            {
+                "name": "Build on Unix",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 8,
+                "started_at": "2025-12-16T16:44:30Z",
+                "completed_at": "2025-12-16T16:44:30Z"
+            },
+            {
+                "name": "Build on Windows",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 9,
+                "started_at": "2025-12-16T16:44:30Z",
+                "completed_at": "2025-12-16T16:45:46Z"
+            },
+            {
+                "name": "Post Set up Python",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 17,
+                "started_at": "2025-12-16T16:45:46Z",
+                "completed_at": "2025-12-16T16:45:46Z"
+            },
+            {
+                "name": "Post Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 18,
+                "started_at": "2025-12-16T16:45:46Z",
+                "completed_at": "2025-12-16T16:45:48Z"
+            },
+            {
+                "name": "Complete job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 19,
+                "started_at": "2025-12-16T16:45:48Z",
+                "completed_at": "2025-12-16T16:45:48Z"
+            }
+        ],
+        "check_run_url": "https://api.github.com/repos/craffael/hunter/check-runs/58223502591",
+        "labels": [
+            "windows-2022"
+        ],
+        "runner_id": 1000000159,
+        "runner_name": "GitHub Actions 1000000159",
+        "runner_group_id": 0,
+        "runner_group_name": "GitHub Actions"
+    }
+]

@@ -97,12 +97,35 @@ hunter_add_version(
     31376c7916aee2fc6375994468744123ad6179b9
 )
 
+hunter_add_version(
+    PACKAGE_NAME
+    glog
+    VERSION
+    "0.7.1"
+    URL
+    "https://github.com/google/glog/archive/refs/tags/v0.7.1.tar.gz"
+    SHA1
+    470e77edcaad491d2f676987ac5a2e739978dda5
+)
+
+if(HUNTER_glog_VERSION VERSION_GREATER_EQUAL 0.7.1)
+    set(_hunter_glog_with_unwind_off_flag "none")
+else()
+    set(_hunter_glog_with_unwind_off_flag "OFF")
+endif()
+if(HUNTER_glog_VERSION VERSION_LESS 0.7.1)
+    # CMake 4.0+ compatibility with older Glog packages
+    set(_hunter_glog_cmake_compatibility_flag "CMAKE_POLICY_VERSION_MINIMUM=3.5")
+else()
+    set(_hunter_glog_cmake_compatibility_flag "")
+endif()
 # explicitly remove dependency on gflags (only needed for tests)
 hunter_cmake_args(glog CMAKE_ARGS
     WITH_GFLAGS=OFF
-    WITH_UNWIND=OFF # since 0.5.0
+    WITH_UNWIND=${_hunter_glog_with_unwind_off_flag} # since 0.5.0
     WITH_GTEST=OFF # since 0.6.0
     BUILD_TESTING=OFF
+    ${_hunter_glog_cmake_compatibility_flag}
 )
 
 hunter_pick_scheme(DEFAULT url_sha1_cmake)

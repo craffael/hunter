@@ -98,6 +98,17 @@ hunter_add_version(
     a2fe037b96c3d7aae64d1a31b3362cfd8e89b8c6
 )
 
+hunter_add_version(
+    PACKAGE_NAME
+    OpenBLAS
+    VERSION
+    0.3.33
+    URL
+    "https://github.com/OpenMathLib/OpenBLAS/archive/v0.3.33.tar.gz"
+    SHA1
+    011399a8f27b635f2c6ef817e976a811e4fac636
+)
+
 hunter_configuration_types(OpenBLAS CONFIGURATION_TYPES Release)
 if(HUNTER_OpenBLAS_VERSION VERSION_LESS 0.3.1)
   hunter_pick_scheme(DEFAULT OpenBLAS)
@@ -123,6 +134,12 @@ else()
   else()
     set(_openblas_cflags)
   endif()
+  if(HUNTER_OpenBLAS_VERSION VERSION_LESS_EQUAL 0.3.27)
+    # CMake 4.0+ compatibility with older OpenBLAS packages
+    set(_hunter_openblas_cmake_compatibility_flag "CMAKE_POLICY_VERSION_MINIMUM=3.5")
+  else()
+    set(_hunter_openblas_cmake_compatibility_flag "")
+  endif()
   hunter_cmake_args(
     OpenBLAS
     CMAKE_ARGS
@@ -130,6 +147,7 @@ else()
     NOFORTRAN=1
     BUILD_WITHOUT_LAPACK=${_openblas_BUILD_WITHOUT_LAPACK}
     ${_openblas_cflags}
+    ${_hunter_openblas_cmake_compatibility_flag}
   )
   hunter_pick_scheme(DEFAULT url_sha1_cmake)
   set(_openblas_unrelocatable_text_files "")

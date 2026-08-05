@@ -236,9 +236,26 @@ set(
     --layout=tagged
     toolset=${toolset_full_name}
     "--user-config=${boost_user_jam}"
-    --with-@HUNTER_PACKAGE_COMPONENT@
     --abbreviate-paths
 )
+
+set(boost_component_option "--with-@HUNTER_PACKAGE_COMPONENT@")
+set(boost_build_target "")
+set(boost_install_target install)
+set(boost_bootstrap_component "--with-libraries=@HUNTER_PACKAGE_COMPONENT@")
+if(
+    "@HUNTER_PACKAGE_COMPONENT@" STREQUAL "system"
+    AND NOT "@HUNTER_Boost_VERSION@" VERSION_LESS 1.91.0
+)
+  set(boost_component_option "")
+  set(boost_build_target headers)
+  set(boost_install_target /boost/system//install)
+  set(boost_bootstrap_component "")
+endif()
+list(APPEND build_opts ${boost_component_option})
+if("@HUNTER_PACKAGE_COMPONENT@" STREQUAL "cobalt")
+  list(APPEND build_opts cxxstd=20)
+endif()
 
 if("@MINGW@")
   # cross compile from "linux" to "windows" using mingw
@@ -459,7 +476,7 @@ elseif(APPLE)
   set(bootstrap_cmd
       . "@HUNTER_GLOBAL_SCRIPT_DIR@/clear-all.sh" &&
       ./bootstrap.sh
-      "--with-libraries=@HUNTER_PACKAGE_COMPONENT@"
+      ${boost_bootstrap_component}
       "--prefix=@HUNTER_PACKAGE_INSTALL_PREFIX@"
   )
   set(patch_cmd "@CMAKE_COMMAND@" -E echo "Dummy patch command")
@@ -540,6 +557,7 @@ ExternalProject_Add(
     ${b2_cmd}
     ${verbose_output}
     ${build_opts}
+    ${boost_build_target}
     --ignore-site-config # Ignore Gentoo specific optimization "none" in site config that only the patched bjam of Gentoo can understand.
 
     BUILD_IN_SOURCE
@@ -548,7 +566,7 @@ ExternalProject_Add(
     ${b2_cmd}
     -d0
     ${build_opts}
-    install
+    ${boost_install_target}
     "--prefix=@HUNTER_PACKAGE_INSTALL_PREFIX@"
     --ignore-site-config # Ignore Gentoo specific optimization "none" in site config that only the patched bjam of Gentoo can understand.
     LOG_CONFIGURE ${log_build}

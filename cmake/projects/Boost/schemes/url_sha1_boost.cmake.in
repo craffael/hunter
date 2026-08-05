@@ -45,6 +45,12 @@ if(version_1_55 AND MINGW)
 endif()
 
 foreach(x ${boost_libs})
+  if(
+      NOT "@HUNTER_Boost_VERSION@" VERSION_LESS 1.91.0
+      AND x MATCHES "^(predef|system)$"
+  )
+    continue()
+  endif()
   list(APPEND boost_list "--without-${x}")
 endforeach()
 

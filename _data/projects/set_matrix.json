@@ -1,20 +1,20 @@
 [
     {
-        "id": 58169348133,
-        "run_id": 20259862368,
+        "id": 92378619901,
+        "run_id": 31027209434,
         "workflow_name": "CI",
-        "head_branch": "feen_wip",
-        "run_url": "https://api.github.com/repos/craffael/hunter/actions/runs/20259862368",
+        "head_branch": "boost_1.91",
+        "run_url": "https://api.github.com/repos/craffael/hunter/actions/runs/31027209434",
         "run_attempt": 1,
-        "node_id": "CR_kwDOCVzNwc8AAAANiynQJQ",
-        "head_sha": "9a271db3126f0a53ceea0cf617b0f0dd55419624",
-        "url": "https://api.github.com/repos/craffael/hunter/actions/jobs/58169348133",
-        "html_url": "https://github.com/craffael/hunter/actions/runs/20259862368/job/58169348133",
+        "node_id": "CR_kwDOCVzNwc8AAAAVgjHf_Q",
+        "head_sha": "e5196584ce7a426767aab8a5bc27376ee410fec0",
+        "url": "https://api.github.com/repos/craffael/hunter/actions/jobs/92378619901",
+        "html_url": "https://github.com/craffael/hunter/actions/runs/31027209434/job/92378619901",
         "status": "completed",
         "conclusion": "success",
-        "created_at": "2025-12-16T07:22:59Z",
-        "started_at": "2025-12-16T07:23:02Z",
-        "completed_at": "2025-12-16T07:23:09Z",
+        "created_at": "2026-08-05T16:50:54Z",
+        "started_at": "2026-08-05T16:50:58Z",
+        "completed_at": "2026-08-05T16:51:07Z",
         "name": "set_matrix",
         "steps": [
             {
@@ -22,72 +22,72 @@
                 "status": "completed",
                 "conclusion": "success",
                 "number": 1,
-                "started_at": "2025-12-16T07:23:03Z",
-                "completed_at": "2025-12-16T07:23:04Z"
+                "started_at": "2026-08-05T16:50:59Z",
+                "completed_at": "2026-08-05T16:51:00Z"
             },
             {
                 "name": "Git checkout",
                 "status": "completed",
                 "conclusion": "success",
                 "number": 2,
-                "started_at": "2025-12-16T07:23:04Z",
-                "completed_at": "2025-12-16T07:23:06Z"
+                "started_at": "2026-08-05T16:51:00Z",
+                "completed_at": "2026-08-05T16:51:02Z"
             },
             {
                 "name": "Manual dispatch, get project name from input",
                 "status": "completed",
                 "conclusion": "skipped",
                 "number": 3,
-                "started_at": "2025-12-16T07:23:06Z",
-                "completed_at": "2025-12-16T07:23:06Z"
+                "started_at": "2026-08-05T16:51:02Z",
+                "completed_at": "2026-08-05T16:51:02Z"
             },
             {
                 "name": "Get changed files and save them to ${HOME}/files.json",
                 "status": "completed",
                 "conclusion": "success",
                 "number": 4,
-                "started_at": "2025-12-16T07:23:06Z",
-                "completed_at": "2025-12-16T07:23:06Z"
+                "started_at": "2026-08-05T16:51:02Z",
+                "completed_at": "2026-08-05T16:51:02Z"
             },
             {
                 "name": "Set matrix for subsequent build",
                 "status": "completed",
                 "conclusion": "success",
                 "number": 5,
-                "started_at": "2025-12-16T07:23:06Z",
-                "completed_at": "2025-12-16T07:23:06Z"
+                "started_at": "2026-08-05T16:51:02Z",
+                "completed_at": "2026-08-05T16:51:02Z"
             },
             {
-                "name": "Run actions/upload-artifact@v4",
+                "name": "Run actions/upload-artifact@v7",
                 "status": "completed",
                 "conclusion": "success",
                 "number": 6,
-                "started_at": "2025-12-16T07:23:06Z",
-                "completed_at": "2025-12-16T07:23:07Z"
+                "started_at": "2026-08-05T16:51:02Z",
+                "completed_at": "2026-08-05T16:51:04Z"
             },
             {
                 "name": "Post Git checkout",
                 "status": "completed",
                 "conclusion": "success",
                 "number": 12,
-                "started_at": "2025-12-16T07:23:07Z",
-                "completed_at": "2025-12-16T07:23:07Z"
+                "started_at": "2026-08-05T16:51:04Z",
+                "completed_at": "2026-08-05T16:51:04Z"
             },
             {
                 "name": "Complete job",
                 "status": "completed",
                 "conclusion": "success",
                 "number": 13,
-                "started_at": "2025-12-16T07:23:07Z",
-                "completed_at": "2025-12-16T07:23:07Z"
+                "started_at": "2026-08-05T16:51:04Z",
+                "completed_at": "2026-08-05T16:51:04Z"
             }
         ],
-        "check_run_url": "https://api.github.com/repos/craffael/hunter/check-runs/58169348133",
+        "check_run_url": "https://api.github.com/repos/craffael/hunter/check-runs/92378619901",
         "labels": [
             "ubuntu-latest"
         ],
-        "runner_id": 1000000088,
-        "runner_name": "GitHub Actions 1000000088",
+        "runner_id": 1000000162,
+        "runner_name": "GitHub Actions 1000000162",
         "runner_group_id": 0,
         "runner_group_name": "GitHub Actions"
     }
